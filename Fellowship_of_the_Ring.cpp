@@ -1,4 +1,4 @@
-#include "strings.cpp"
+//#include "strings.cpp"
 #include <iostream>
 #include <string>
 
@@ -21,49 +21,73 @@ int Nine = 0;
 int Ten = 0;
 int Eleven = 0;
 int Twelve = 0;
+int Number_of_bytes_without_optimization = 0;
+int Number_of_kilobytes_binary = 0;
+int Number_of_kilobytes_metric = 0;
+int Number_of_bytes_per_binary_kilobyte = 0;
+int Number_of_metric_kilobytes = 0;
+bool Read_Tolkiens_Legendarium = 0;
 
-/*
+
 string J = "";
 string R = "";
-string Hyphen = "";
-string Left_Parent = "";
-string Right_Parent = "";
-string Forward_Slash = "";
-string Space = "";
-string Period = "";
+string F = "";
 string Tolkien = "";
-string Colon = "";
 string by = "";
 string TOLKIEN = "";
 string Part = "";
-string Comma = "";
 string CONTENTS = "";
 string FOREWORD = "";
 string PROLOGUE = "";
 string weed = "";
 string Chapter = "";
 string APPENDICES = "";
-string QuestionMark = "";
-string F = "";
 string Strider = "";
 string INDEXES = "";
-string Semicolon = "";
 string colonists = "";
+string government = "";
+string Kilobytes = "";
+string nephew = "";
+string precious = "";
+string thief = "";
+string Thief = "";
+string roots = "";
+string Colon = "";
+string Hyphen = "";
+string Left_Parent = "";
+string Right_Parent = "";
+string Forward_Slash = "";
+string Space = "";
+string Period = "";
+string QuestionMark = "";
+string Comma = "";
+string Semicolon = "";
 string Apostrophe = "";
-*/
+string s = "";
+string ExclamationMark = "";
+string Ah = "";
+string fireworks = "";
+string Yes = "";
 
+government = "government";
 APPENDICES = "APPENDICES";
+Kilobytes = "Kilobytes";
 colonists = "colonists";
-Chapter = "Chapter";
 CONTENTS = "CONTENTS";
 FOREWORD = "FOREWORD";
 PROLOGUE = "PROLOGUE";
+precious = "precious";
+Chapter = "Chapter";
 TOLKIEN = "TOLKIEN";
 INDEXES = "INDEXES";
 Tolkien = "Tolkien";
 Strider = "Strider";
+nephew = "nephew";
+roots = "roots";
 Part = "Part";
 weed = "weed";
+Yes = "Yes";
+Ah = "Ah";
 by = "by";
 J = "J";
 R = "R";
@@ -79,6 +103,9 @@ Comma = ",";
 QuestionMark = "?";
 Semicolon = ";";
 Apostrophe = "'";
+ExclamationMark = "!";
+s = "s";
+fireworks = "fireworks";
 
 
 One = 1;
@@ -93,6 +120,23 @@ Nine = 9;
 Ten = 10;
 Eleven = 11;
 Twelve = 12;
+
+/*
+cout << "How Many Bytes is the Assembly Output Without Any Optimizations" << QuestionMark << endl;
+cin >> Number_of_bytes_without_optimization;
+
+Number_of_bytes_per_binary_kilobyte = 1024;
+Number_of_metric_kilobytes = 1000;
+Number_of_bytes_without_optimization = 346835;
+
+Number_of_kilobytes_binary = (Number_of_bytes_without_optimization / Number_of_bytes_per_binary_kilobyte);
+
+cout << "Without Optimizations Enabled" << Comma << Space << "The Assembly Output Is" << Colon << Space << Number_of_kilobytes_binary << Space << Kilobytes << endl;
+
+
+cout << "Read Tolkein's Legendarium" << QuestionMark << endl;
+cin >> Read_Tolkiens_Legendarium;
+*/
 
 cout << J << Period << Space << R << Period << Space << R << Period << Space << Tolkien << Space << Hyphen << Space << "The Lord Of The Rings" << Period << Space << Left_Parent << One << Forward_Slash << Four << Right_Parent << endl;
 cout << Hyphen;
@@ -408,14 +452,20 @@ cout << "One has indeed personally to come under the shadow of war to feel fully
 cout << "By 1918 all but one of my close friends were dead" << Period << endl;
 cout << "Or to take a less grievous matter: it has been supposed by some that 'The Scouring of the Shire' reflects the situation in England at the time when I was finishing my tale" << Period << endl;
 cout << "It does not" << Period << endl;
-cout << "It is an essential part of the plot, foreseen from the outset, though in the event modified by the character of Saruman as developed in the story without, need I say, any allegorical significance or contemporary political reference whatsoever" << Period << endl;
+cout << "It is an essential part of the plot, foreseen from the outset" << Comma << endl;
+cout << "though in the event modified by the character of Saruman as developed in the story without" << Comma << endl;
+cout << "need I say, any allegorical significance or contemporary political reference whatsoever" << Period << endl;
 cout << "It has indeed some basis in experience, though slender (for the economic situation was entirely different), and much further back" << Period << endl;
 cout << "The country in which I lived in childhood was being shabbily destroyed before I was ten, in days when motor-cars were rare objects (I had never seen one) and men were still building suburban railways" << Period << endl;
 cout << "Recently I saw in a paper a picture of the last decrepitude of the once thriving corn-mill beside its pool that long ago seemed to me so important" << Period << endl;
 cout << "I never liked the looks of the Young miller, but his father, the Old miller, had a black beard, and he was not named Sandyman" << Period << endl;
 cout << "The Lord of the Rings is now issued in a new edition, and the opportunity has been taken of revising it" << Period << endl;
-cout << "A number of errors and inconsistencies that still remained in the text have been corrected, and an attempt has been made to provide information on a few points which attentive readers have raised" << Period << endl;
-cout << "I have considered all their comments and enquiries, and if some seem to have been passed over that may be because I have failed to keep my notes in order; but many enquiries could only be answered by additional appendices, or indeed by the production of an accessory volume containing much of the material that I did not include in the original edition, in particular more detailed linguistic information" << Period << endl;
+cout << "A number of errors and inconsistencies that still remained in the text have been corrected" << Comma << endl;
+cout << "and an attempt has been made to provide information on a few points which attentive readers have raised" << Period << endl;
+cout << "I have considered all their comments and enquiries, and if some seem to have been passed over that may be because I have failed to keep my notes in order" << Semicolon << endl;
+cout << "but many enquiries could only be answered by additional appendices" << Comma << endl;
+cout << "or indeed by the production of an accessory volume containing much of the material that I did not include in the original edition" << Comma << endl;
+cout << "in particular more detailed linguistic information" << Period << endl;
 cout << "In the meantime this edition offers this Foreword, an addition to the Prologue, some notes, and an index of the names of persons and places" << Period << endl;
 cout << "This index is in intention complete in items but not in references, since for the present purpose it has been necessary to reduce its bulk" << Period << endl;
 cout << "A complete index, making full use of the material prepared for me by Mrs. N. Smith, belongs rather to the accessory volume" << Period << endl;
@@ -687,53 +737,185 @@ cout << "But even the Dunedain of Gondor allow us this credit: Hobbits first put
 cout << "Not even the Wizards first thought of that before we did" << Period << endl;
 cout << "Though one Wizard that I knew took up the art long ago, and became as skillful in it as in all other things that he put his mind to" << Period << Apostrophe << endl;
 
-cout << "The Shire was divided into four quarters, the Farthings already referred to. North, South, East, and West;";
-cout << "and these again each into a number of folklands, which still bore the names of some of the old leading families,";
-cout << "although by the time of this history these names were no longer found only in their proper folklands.";
-cout << "Nearly all Tooks still lived in the Tookland, but that was not true of many other families, such as the Bagginses or the Boffins.";
-cout << "Outside the Farthings were the East and West Marches: the Buckland (see beginning of Chapter V, Book I); and the Westmarch added to the Shire in S.R. 1462.";
-cout << "The Shire at this time had hardly any 'government'.";
-cout << "Families for the most part managed their own affairs.";
-cout << "Growing food and eating it occupied most of their time.";
-cout << "In other matters they were, as a rule, generous and not greedy, but contented and moderate, so that estates, farms, workshops,";
-cout << "and small trades tended to remain unchanged for generations.";
-cout << "There remained, of course, the ancient tradition concerning the high king at Fornost, or Norbury as they called it, away north of the Shire.";
-cout << "But there had been no king for nearly a thousand years, and even the ruins of Kings' Norbury were covered with grass.";
-cout << "Yet the Hobbits still said of wild folk and wicked things (such as trolls) that they had not heard of the king.";
-cout << "For they attributed to the king of old all their essential laws;";
-cout << "and usually they kept the laws of free will, because they were The Rules (as they said), both ancient and just.";
-cout << "It is true that the Took family had long been pre-eminent; for the office of Thain had passed to them (from the Oldbucks) some centuries before,";
-cout << "and the chief Took had borne that title ever since.";
-cout << "The Thain was the master of the Shire-moot, and captain of the Shire-muster and the Hobbitry-in-arms, but as muster and moot were only held in times of emergency,";
-cout << "which no longer occurred, the Thainship had ceased to be more than a nominal dignity.";
-cout << "The Took family was still, indeed, accorded a special respect, for it remained both numerous and exceedingly wealthy,";
-cout << "and was liable to produce in every generation strong characters of peculiar habits and even adventurous temperament.";
-cout << "The latter qualities, however, were now rather tolerated (in the rich) than generally approved.";
-cout << "The custom endured, nonetheless, of referring to the head of the family as The Took,";
-cout << "and of adding to his name, if required, a number: such as Isengrim the Second, for instance.";
+cout << "The Shire was divided into four quarters, the Farthings already referred to. North, South, East, and West" << Semicolon << endl;
+cout << "and these again each into a number of folklands, which still bore the names of some of the old leading families" << Comma << endl;
+cout << "although by the time of this history these names were no longer found only in their proper folklands" << Period << endl;
+cout << "Nearly all Tooks still lived in the Tookland, but that was not true of many other families, such as the Bagginses or the Boffins" << Period << endl;
+cout << "Outside the Farthings were the East and West Marches: the Buckland (see beginning of Chapter V, Book I); and the Westmarch added to the Shire in S.R. 1462" << Period << endl;
+cout << "The Shire at this time had hardly any" << Space << Apostrophe << government << Apostrophe << Period << endl;
+cout << "Families for the most part managed their own affairs" << Period << endl;
+cout << "Growing food and eating it occupied most of their time" << Period << endl;
+cout << "In other matters they were, as a rule, generous and not greedy, but contented and moderate, so that estates, farms, workshops" << Comma << endl;
+cout << "and small trades tended to remain unchanged for generations" << Period << endl;
+cout << "There remained, of course, the ancient tradition concerning the high king at Fornost, or Norbury as they called it, away north of the Shire" << Period << endl;
+cout << "But there had been no king for nearly a thousand years, and even the ruins of Kings' Norbury were covered with grass" << Period << endl;
+cout << "Yet the Hobbits still said of wild folk and wicked things (such as trolls) that they had not heard of the king" << Period << endl;
+cout << "For they attributed to the king of old all their essential laws" << Semicolon << endl;
+cout << "and usually they kept the laws of free will, because they were The Rules (as they said), both ancient and just" << Period << endl;
+cout << "It is true that the Took family had long been pre-eminent; for the office of Thain had passed to them (from the Oldbucks) some centuries before" << Comma << endl;
+cout << "and the chief Took had borne that title ever since" << Period << endl;
+cout << "The Thain was the master of the Shire-moot, and captain of the Shire-muster and the Hobbitry-in-arms, but as muster and moot were only held in times of emergency" << Comma << endl;
+cout << "which no longer occurred, the Thainship had ceased to be more than a nominal dignity" << Period << endl;
+cout << "The Took family was still, indeed, accorded a special respect, for it remained both numerous and exceedingly wealthy" << Comma << endl;
+cout << "and was liable to produce in every generation strong characters of peculiar habits and even adventurous temperament" << Period << endl;
+cout << "The latter qualities, however, were now rather tolerated (in the rich) than generally approved" << Period << endl;
+cout << "The custom endured, nonetheless, of referring to the head of the family as The Took" << Comma << endl;
+cout << "and of adding to his name, if required, a number: such as Isengrim the Second, for instance" << Period << endl;
 
+cout << "The only real official in the Shire at this date was the Mayor of Michel Delving" << Space << Left_Parent << "or of the Shire" << Right_Parent << Comma << endl;
+cout << "who was elected every seven years at the Free Fair on the White Downs at the Lithe, that is at Midsummer" << Period << endl;
+cout << "As mayor almost his only duty was to preside at banquets, given on the Shire-holidays, which occurred at frequent intervals" << Period << endl;
+cout << "But the offices of Postmaster and First Shirriff were attached to the mayoralty, so that he managed both the Messenger Service and the Watch" << Period << endl;
+cout << "These were the only Shire-services, and the Messengers were the most numerous, and much the busier of the two. By no means all Hobbits were lettered" << Comma << endl;
+cout << "but those who were wrote constantly to all their friends (and a selection of their relations) who lived further off than an afternoon's walk" << Period << endl;
+cout << "The Shirriffs was the name that the Hobbits gave to their police, or the nearest equivalent that they possessed" << Period << endl;
+cout << "They had, of course, no uniforms (such things being quite unknown), only a feather in their caps" << Semicolon << endl;
+cout << "and they were in practice rather haywards than policemen, more concerned with the strayings of beasts than of people" << Period << endl;
+cout << "There were in all the Shire only twelve of them, three in each Farthing, for Inside Work" << Period << endl;
+cout << "A rather larger body, varying at need, was employed to 'beat the bounds', and to see that Outsiders of any kind, great or small, did not make themselves a nuisance" << Period << endl;
+cout << "At the time when this story begins the Bounders, as they were called, had been greatly increased" << Period << endl;
+cout << "There were many reports and complaints of strange persons and creatures prowling about the borders, or over them" << Colon << endl;
+cout << "the first sign that all was not quite as it should be, and always had been except in tales and legends of long ago" << Period << endl;
+cout << "Few heeded the sign, and not even Bilbo yet had any notion of what it portended" << Period << endl;
+cout << "Sixty years had passed since he set out on his memorable journey, and he was old even for Hobbits, who reached a hundred as often as not" << Semicolon << endl;
+cout << "but much evidently still remained of the considerable wealth that he had brought back" << Period << endl;
+cout << "How much or how little he revealed to no one, not even to Frodo his favourite" << Space << Apostrophe << nephew << Apostrophe << Period << endl;
+cout << "And he still kept secret the ring that he had found" << Period << endl;
 
+cout << "As is told in The Hobbit, there came one day to Bilbo's door the great Wizard, Gandalf the Grey, and thirteen dwarves with him" << Colon << endl;
+cout << "none other, indeed, than Thorin Oakenshield" << Comma << Space << "descendant of kings, and his twelve companions in exile" << Period << endl;
+cout << "With them he set out, to his own lasting astonishment, on a morning of April, it being then the year 1341 Shire-reckoning, on a quest of great treasure" << Comma << endl;
+cout << "the dwarf-hoards of the Kings under the Mountain, beneath Erebor in Dale, far off in the East" << Period << endl;
+cout << "The quest was successful, and the Dragon that guarded the hoard was destroyed" << Period << endl;
+cout << "Yet, though before all was won the Battle of Five Armies was fought, and Thorin was slain" << Comma << endl;
+cout << "and many deeds of renown were done, the matter would scarcely have concerned later history" << Comma << endl;
+cout << "or earned more than a note in the long annals of the Third Age, but for an 'accident' by the way" << Period << endl;
+cout << "The party was assailed by Orcs in a high pass of the Misty Mountains as they went towards Wilderland" << Semicolon << endl;
+cout << "and so it happened that Bilbo was lost for a while in the black orc-mines deep under the mountains, and there" << Comma << endl;
+cout << "as he groped in vain in the dark, he put his hand on a ring, lying on the floor of a tunnel" << Period << endl;
+cout << "He put it in his pocket" << Period << endl;
+cout << "It seemed then like mere luck" << Period << endl;
+cout << "Trying to find his way out" << Period << endl;
+cout << "Bilbo went on down to the roots of the mountains, until he could go no further" << Period << endl;
+cout << "At the bottom of the tunnel lay a cold lake far from the light, and on an island of rock in the water lived Gollum" << Period << endl;
+cout << "He was a loathsome little creature: he paddled a small boat with his large flat feet" << Comma << endl;
+cout << "peering with pale luminous eyes and catching blind fish with his long fingers, and eating them raw" << Period << endl;
+cout << "He ate any living thing, even orc, if he could catch it and strangle it without a struggle" << Period << endl;
+cout << "He possessed a secret treasure that had come to him long ages ago, when he still lived in the light: a ring of gold that made its wearer invisible" << Period << endl;
+cout << "It was the one thing he loved, his 'precious', and he talked to it, even when it was not with him" << Period << endl;
+cout << "For he kept it hidden safe in a hole on his island, except when he was hunting or spying on the orcs of the mines" << Period << endl;
+cout << "Maybe he would have attacked Bilbo at once, if the ring had been on him when they met" << Semicolon << endl;
+cout << "but it was not, and the hobbit held in his hand an Elvish knife, which served him as a sword" << Period << endl;
+cout << "So to gain time Gollum challenged Bilbo to the Riddle-game, saying that if he asked a riddle which Bilbo could not guess, then he would kill him and eat him" << Semicolon << endl;
+cout << "but if Bilbo defeated him, then he would do as Bilbo wished" << Colon << endl;
+cout << "he would lead him to a way out of the tunnels" << Period << endl;
 
+cout << "Since he was lost in the dark without hope, and could neither go on nor back. Bilbo accepted the challenge; and they asked one another many riddles." << endl;
+cout << "In the end Bilbo won the game, more by luck (as it seemed) than by wits;" << endl;
+cout << "for he was stumped at last for a riddle to ask, and cried out, as his hand came upon the ring he lad picked up and forgotten:" << endl;
+cout << "What have I got in my pocket?" << endl;
+cout << "This Gollum failed to answer, though he demanded three guesses." << endl;
+cout << "The Authorities, it is true, differ whether this last question was a mere 'question' and not a 'riddle' according to the strict rules of the Game;" << endl;
+cout << "but all agree that, after accepting it and trying to guess the answer, Gollum was bound by his promise." << endl;
+cout << "And Bilbo pressed him to keep his word;" << endl;
+cout << "for the thought came to him that this slimy creature might prove false, even though such promises were held sacred," << endl;
+cout << "and of old all but the wickedest things feared to break them." << endl;
+cout << "But after ages alone in the dark Gollum's heart was black, and treachery was in it." << endl;
+cout << "He slipped away, and returned to the island, of which Bilbo knew nothing, not far off in the dark water." << endl;
+cout << "There, he thought, lay his ring. He was hungry now, and angry, and once his 'precious' was with him he would not fear any weapon at all." << endl;
+cout << "But the ring was not on the island; he had lost it, it was gone." << endl;
+cout << "His screech sent a shiver down Bilbo's back, though he did not yet understand what had happened." << endl;
+cout << "But Gollum had at last leaped to a guess, too late." << endl;
+cout << "What has it got in its pocketses? he cried." << endl;
 
+cout << "The light in his eyes was like a green flame as he sped back to murder the hobbit and recover his" << Space << Apostrophe << precious << Apostrophe << Period << endl;
+cout << "Just in time Bilbo saw his peril, and he fled blindly up the passage away from the water; and once more he was saved by his luck." << endl;
+cout << "For just as he ran he put his hand in his pocket, and the ring slipped quietly on to his finger." << endl;
+cout << "So it was that Gollum passed him without seeing him, and went to guard the way out, lest the 'thief' should escape." << endl;
+cout << "Warily Bilbo followed him, as he went along, cursing, and talking to himself about his" << Space << Apostrophe << precious << Apostrophe << Semicolon << endl;
+cout << "from which talk at last even Bilbo guessed the truth, and hope came to him in the darkness" << Colon << endl;
+cout << "he himself had found the marvellous ring and a chance of escape from the orcs and from Gollum." << endl;
+cout << "At length they came to a halt before an unseen opening that led to the lower gates of the mines, on the eastward side of the mountains." << endl;
+cout << "There Gollum crouched at bay, smelling and listening; and Bilbo was tempted to slay him with his sword." << endl;
+cout << "But pity stayed him, and though he kept the ring, in which his only hope lay, he would not use it to help him kill the wretched creature at a disadvantage." << endl;
+cout << "In the end, gathering his courage, he leaped over Gollum in the dark, and fled away down the passage, pursued by his enemy's cries of hate and despair" << Colon << endl;
+cout << "Thief, thief! Baggins! We hates it for ever!" << endl;
 
+cout << "Now it is a curious fact that this is not the story as Bilbo first told it to his companions." << endl;
+cout << "To them his account was that Gollum had promised to give him a present, if he won the game;" << endl;
+cout << "but when Gollum went to fetch it from his island he found the treasure was gone: a magic ring, which had been given to him long ago on his birthday." << endl;
+cout << "Bilbo guessed that this was the very ring that he had found, and as he had won the game, it was already his by right." << endl;
+cout << "But being in a tight place, he said nothing about it, and made Gollum show him the way out, as a reward instead of a present." << endl;
+cout << "This account Bilbo set down in his memoirs, and he seems never to have altered it himself, not even after the Council of Elrond." << endl;
+cout << "Evidently it still appeared in the original Red Book, as it did in several of the copies and abstracts." << endl;
+cout << "But many copies contain the true account (as an alternative), derived no doubt from notes by Frodo or Samwise, both of whom learned the truth," << endl;
+cout << "though they seem to have been unwilling to delete anything actually written by the old hobbit himself." << endl;
+cout << "Gandalf, however, disbelieved Bilbo's first story, as soon as he heard it, and he continued to be very curious about the ring." << endl;
+cout << "Eventually he got the true tale out of Bilbo after much questioning, which for a while strained their friendship; but the wizard seemed to think the truth important." << endl;
+cout << "Though he did not say so to Bilbo, he also thought it important, and disturbing, to find that the good hobbit had not told the truth from the first:" << endl;
+cout << "quite contrary to his habit. The idea of a 'present' was not mere hobbitlike invention, all the same." << endl;
+cout << "It was suggested to Bilbo, as he confessed, by Gollum's talk that he overheard; for Gollum did, in fact, call the ring his 'birthday present', many times." << endl;
+cout << "That also Gandalf thought strange and suspicious; but he did not discover the truth in this point for many more years, as will be seen in this book." << endl;
 
+cout << "Of Bilbo's later adventures little more need be said here." << endl;
+cout << "With the help of the ring he escaped from the orc-guards at the gate and rejoined his companions." << endl;
+cout << "He used the ring many times on his quest, chiefly for the help of his friends; but he kept it secret from them as long as he could." << endl;
+cout << "After his return to his home he never spoke of it again to anyone, save Gandalf and Frodo; and no one else in the Shire knew of its existence, or so he believed." << endl;
+cout << "Only to Frodo did he show the account of his Journey that he was writing." << endl;
+cout << "His sword, Sting, Bilbo hung over his fireplace, and his coat of marvellous mail, the gift of the Dwarves from the Dragon-hoard," << endl;
+cout << "he lent to a museum, to the Michel Delving Mathom-house in fact." << endl;
+cout << "But he kept in a drawer at Bag End the old cloak and hood that he had worn on his travels; and the ring, secured by a fine chain, remained in his pocket." << endl;
+cout << "He returned to his home at Bag End on June the 22nd in his fifty-second year (S.R. 1342)," << endl;
+cout << "and nothing very notable occurred in the Shire until Mr. Baggins began the preparations for the celebration of his hundred-and-eleventh birthday (S.R. 1401)." << endl;
+cout << "At this point this History begins.";
 
+cout << "At the end of the Third Age the part played by the Hobbits in the great events that led to the inclusion of the Shire in the Reunited Kingdom," << endl;
+cout << "had awakened among them a more widespread interest in their own history; and many of their traditions," << endl;
+cout << "up to that time still mainly oral, were collected and Written down." << endl;
+cout << "The greater families were also concerned with events in the Kingdom at large, and many of their members studied its ancient histories and legends." << endl;
+cout << "By the end of the first century of the Fourth Age there were already to be found in the Shire several libraries that contained many historical books and records." << endl;
+cout << "The largest of these collections were probably at Undertowers, at Great Smials, and at Brandy Hall." << endl;
+cout << "This account of the end of the Third Age is drawn mainly from the Red Book of Westmarch." << endl;
+cout << "That most important source for the history of the War of the Ring was so called because it was long preserved at Undertowers," << endl;
+cout << "the home of the Fairbairns, Wardens of the Westmarch." << endl;
 
+cout << "It was in origin Bilbo's private diary, which he took with him to Rivendell." << endl;
+cout << "Frodo brought it back to the Shire, together with many loose leaves of notes, and during S.R. 1420-1 he nearly filled its pages with his account of the War." << endl;
+cout << "But annexed to it and preserved with it, probably in a single red case, were the three large volumes, bound in red leather, that Bilbo gave to him as a parting gift." << endl;
+cout << "To these four volumes there was added in Westmarch a fifth containing commentaries, genealogies, and various other matter concerning the hobbit members of the Fellowship." << endl;
+cout << "The original Red Book has not been preserved, but many copies were made, especially of the first volume, for the use of the descendants of the children of Master Samwise." << endl;
+cout << "The most important copy, however, has a different history." << endl;
+cout << "It was kept at Great Smials, but it was written in Condor, probably at the request of the great-grandson of Peregrin, and completed in S.R. 1592 (F.A. 172)." << endl;
+cout << "Its southern scribe appended this note: Findegil, King's Writer, finished this work in IV 172." << endl;
+cout << "It is an exact copy in all details of the Thain's Book in Minas Tirith." << endl;
+cout << "That book was a copy, made at the request of King Elessar, of the Red Book of the Periannath," << endl;
+cout << "and was brought to him by the Thain Peregrin when he retired to Gondor in IV 64." << endl;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+cout << "The Thain's Book was thus the first copy made of the Red Book and contained much that was later omitted or lost" << Period << endl;
+cout << "In Minas Tirith it received much annotation, and many corrections, especially of names, words, and quotations in the Elvish languages" << Semicolon << endl;
+cout << "and there was added to it an abbreviated version of those parts of The Tale of Aragorn and Arwen which lie outside the account of the War" << Period << endl;
+cout << "The full tale is stated to have been written by Barahir, grandson of the Steward Faramir, some time after the passing of the King" << Period << endl;
+cout << "But the chief importance of Findegil's copy is that it alone contains the whole of Bilbo's" << Space << Apostrophe << "Translations from the Elvish" << Apostrophe << Period << endl;
+cout << "These three volumes were found to be a work of great skill and learning in which, between 1403 and 1418" << Comma << endl;
+cout << "he had used all the sources available to him in Rivendell, both living and written" << Period << endl;
+cout << "But since they were little used by Frodo, being almost entirely concerned with the Elder Days, no more is said of them here" << Period << endl;
+cout << "Since Meriadoc and Peregrin became the heads of their great families, and at the same time kept up their connexions with Rohan and Gondor" << Comma << endl;
+cout << "the libraries at Bucklebury and Tuckborough contained much that did not appear in the Red Book" << Period << endl;
+cout << "In Brandy Hall there were many works dealing with Eriador and the history of Rohan" << Period << endl;
+cout << "Some of these were composed or begun by Meriadoc himself, though in the Shire he was chiefly remembered for his Herblore of the Shire" << Comma << endl;
+cout << "and for his Reckoning of Years in which he discussed the relation of the calendars of the Shire and Bree to those of Rivendell, Gondor, and Rohan" << Period << endl;
+cout << "He also wrote a short treatise on Old Words and Names in the Shire" << Comma << endl;
+cout << "having special interest in discovering the kinship with the language of the Rohirrim of such 'shire-words' as mathom and old elements in place names" << Period << endl;
+cout << "At Great Smials the books were of less interest to Shire-folk, though more important for larger history" << Period << endl;
+cout << "None of them was written by Peregrin, but he and his successors collected many manuscripts written by scribes of Gondor" << Colon << endl;
+cout << "mainly copies or summaries of histories or legends relating to Elendil and his heirs" << Period << endl;
+cout << "Only here in the Shire were to be found extensive materials for the history of Numenor and the arising of Sauron" << Period << endl;
+cout << "It was probably at Great Smials that The Tale of Years was put together, with the assistance of material collected by Meriadoc" << Period << endl;
+cout << "Though the dates given are often conjectural, especially for the Second Age, they deserve attention" << Period << endl;
+cout << "It is probable that Meriadoc obtained assistance and information from Rivendell, which he visited more than once" << Period << endl;
+cout << "There, though Elrond had departed, his sons long remained, together with some of the High-elven folk" << Period << endl;
+cout << "It is said that Celeborn went to dwell there after the departure of Galadriel" << Semicolon << endl;
+cout << "but there is no record of the day when at last he sought the Grey Havens, and with him went the last living memory of the Elder Days in Middle-earth" << Period << endl;
 
 cout << Hyphen;
 cout << Hyphen;
@@ -783,36 +965,254 @@ cout << Hyphen;
 cout << Hyphen;
 cout << Hyphen << endl;
 
+cout << "THE FELLOWSHIP OF THE RING" << endl;
+cout << "being the first part of The Lord of the Rings" << endl;
+cout << "BOOK I" << endl;
+cout << Chapter << Space << One << endl;
+cout << "A Long-expected Party" << endl;
+
+cout << "When Mr. Bilbo Baggins of Bag End announced that he would shortly be celebrating his eleventy-first birthday with a party of special magnificence" << Comma << endl;
+cout << "there was much talk and excitement in Hobbiton." << endl;
+cout << "Bilbo was very rich and very peculiar, and had been the wonder of the Shire for sixty years, ever since his remarkable disappearance and unexpected return." << endl;
+cout << "The riches he had brought back from his travels had now become a local legend, and it was popularly believed" << Comma << endl;
+cout << "whatever the old folk might say, that the Hill at Bag End was full of tunnels stuffed with treasure." << endl;
+cout << "And if that was not enough for fame, there was also his prolonged vigour to marvel at." << endl;
+cout << "Time wore on, but it seemed to have little effect on Mr. Baggins." << endl;
+cout << "At ninety he was much the same as at fifty." << endl;
+cout << "At ninety-nine they began to call him well-preserved, but unchanged would have been nearer the mark." << endl;
+cout << "There were some that shook their heads and thought this was too much of a good thing" << Semicolon << endl;
+cout << "it seemed unfair that anyone should possess (apparently) perpetual youth as well as (reputedly) inexhaustible wealth." << endl;
+cout << "'It will have to be paid for,' they said." << endl;
+cout << "'It isn't natural, and trouble will come of it!'" << endl;
+cout << "But so far trouble had not come; and as Mr. Baggins was generous with his money, most people were willing to forgive him his oddities and his good fortune." << endl;
+cout << "He remained on visiting terms with his relatives (except, of course, the Sackville-Bagginses)," << endl;
+cout << "and he had many devoted admirers among the hobbits of poor and unimportant families." << endl;
+cout << "But he had no close friends, until some of his younger cousins began to grow up." << endl;
+cout << "The eldest of these, and Bilbo's favourite, was young Frodo Baggins." << endl;
+cout << "When Bilbo was ninety-nine, he adopted Frodo as his heir, and brought him to live at Bag End;" << endl;
+cout << "and the hopes of the Sackville-Bagginses were finally dashed." << endl;
+cout << "Bilbo and Frodo happened to have the same birthday, September 22nd." << endl;
+cout << "'You had better come and live here, Frodo my lad,' said Bilbo one day;" << endl;
+cout << "'and then we can celebrate our birthday-parties comfortably together.'" << endl;
+cout << "At that time Frodo was still in his tweens, as the hobbits called the irresponsible twenties between childhood and coming of age at thirty-three." << endl;
+
+cout << "Twelve more years passed." << endl;
+cout << "Each year the Bagginses had given very lively combined birthday-parties at Bag End;" << endl;
+cout << "but now it was understood that something quite exceptional was being planned for that autumn." << endl;
+cout << "Bilbo was going to be eleventy-one, 111, a rather curious number and a very respectable age for a hobbit (the Old Took himself had only reached 130);" << endl;
+cout << "and Frodo was going to be thirty-three, 33 an important number: the date of his 'coming of age'." << endl;
+cout << "Tongues began to wag in Hobbiton and Bywater; and rumour of the coming event travelled all over the Shire." << endl;
+cout << "The history and character of Mr. Bilbo Baggins became once again the chief topic of conversation" << Semicolon << endl;
+cout << "and the older folk suddenly found their reminiscences in welcome demand." << endl;
+cout << "No one had a more attentive audience than old Ham Gamgee, commonly known as the Gaffer." << endl;
+
+cout << "He held forth at The Ivy Bush, a small inn on the Bywater road; and he spoke with some authority" << Comma << endl;
+cout << "for he had tended the garden at Bag End for forty years, and had helped old Holman in the same job before that." << endl;
+cout << "Now that he was himself growing old and stiff in the joints, the job was mainly carried on by his youngest son, Sam Gamgee." << endl;
+cout << "Both father and son were on very friendly terms with Bilbo and Frodo." << endl;
+cout << "They lived on the Hill itself, in Number 3 Bagshot Row just below Bag End." << endl;
+cout << "'A very nice well-spoken gentlehobbit is Mr. Bilbo, as I've always said,' the Gaffer declared." << endl;
+
+cout << "With perfect truth: for Bilbo was very polite to him, calling him" << Space << Apostrophe << "Master Hamfast" << Apostrophe << Comma << endl;
+cout << "and consulting him constantly upon the growing of vegetables - in the matter of" << Space << Apostrophe << roots << Apostrophe << Comma << Space << "especially potatoes" << Comma << endl;
+cout << "the Gaffer was recognized as the leading authority by all in the neighbourhood" << Space << Left_Parent << "including himself" << Right_Parent << Period << endl;
+cout << "'But what about this Frodo that lives with him?' asked Old Noakes of Bywater" << Period << endl;
+cout << "Baggins is his name, but he's more than half a Brandybuck, they say" << Period << endl;
+cout << "It beats me why any Baggins of Hobbiton should go looking for a wife away there in Buckland, where folks are so queer" << Period << endl;
+cout << "'And no wonder they're queer,' put in Daddy Twofoot" << Space << Left_Parent << "the Gaffer" << Apostrophe << s << Space << "next-door neighbour" << Right_Parent << Comma << endl;
+cout << "if they live on the wrong side of the Brandywine River, and right agin the Old Forest" << Period << endl;
+cout << "That's a dark bad place, if half the tales be true" << Period << endl;
+cout << "'You're right, Dad!' said the Gaffer" << Period << endl;
+cout << "'Not that the Brandybucks of Buck-land live in the Old Forest; but they're a queer breed, seemingly" << Period << endl;
+cout << "They fool about with boats on that big river - and that isn't natural" << Period << endl;
+cout << "Small wonder that trouble came of it, I say" << Period << endl;
+cout << "But be that as it may, Mr. Frodo is as nice a young hobbit as you could wish to meet" << Period << endl;
+cout << "Very much like Mr. Bilbo, and in more than looks" << Period << endl;
+cout << "After all his father was a Baggins" << Period << endl;
+cout << "A decent respectable hobbit was Mr. Drogo Baggins; there was never much to tell of him, till he was drownded" << Period << endl;
+cout << "'Drownded?' said several voices" << Period << endl;
+
+cout << "They had heard this and other darker rumours before, of course; but hobbits have a passion for family history, and they were ready to hear it again" << Period << endl;
+cout << "'Well, so they say,' said the Gaffer" << Period << endl;
+cout << "'You see: Mr. Drogo, he married poor Miss Primula Brandybuck" << Period << endl;
+cout << "She was our Mr. Bilbo's first cousin on the mother's side" << Space << Left_Parent << "her mother being the youngest of the Old Took's daughters" << Right_Parent << Semicolon << endl;
+cout << "and Mr. Drogo was his second cousin" << Period << endl;
+cout << "So Mr. Frodo is his first and second cousin, once removed either way, as the saying is, if you follow me" << Period << endl;
+cout << "And Mr. Drogo was staying at Brandy Hall with his father-in-law, old Master Gorbadoc" << Comma << endl;
+cout << "as he often did after his marriage" << Space << Left_Parent << "him being partial to his vittles" << Comma << Space << "and old Gorbadoc keeping a mighty generous table" << Right_Parent << Semicolon << endl;
+cout << "and he went out boatingon the Brandywine River; and he and his wife were drownded, and poor Mr. Frodo only a child and all" << Period << endl;
+cout << "'I've heard they went on the water after dinner in the moonlight,' said Old Noakes; 'and it was Drogo's weight as sunk the boat" << Period << Apostrophe << endl;
+cout << "'And I heard she pushed him in, and he pulled her in after him,' said Sandyman, the Hobbiton miller" << Period << endl;
+cout << "'You shouldn't listen to all you hear, Sandyman,' said the Gaffer, who did not much like the miller" << Period << endl;
+cout << "'There isn't no call to go talking of pushing and pulling" << Period << endl;
+cout << "Boats are quite tricky enough for those that sit still without looking further for the cause of trouble" << Period << endl;
+
+cout << "Anyway" << Colon << endl;
+cout << "there was this Mr. Frodo left an orphan and stranded, as you might say, among those queer Bucklanders, being brought up anyhow in Brandy Hall" << Period << endl;
+cout << "A regular warren, by all accounts" << Period << endl;
+cout << "Old Master Gorbadoc never had fewer than a couple of hundred relations in the place" << Period << endl;
+cout << "Mr. Bilbo never did a kinder deed than when he brought the lad back to live among decent folk" << Period << endl;
+cout << "But I reckon it was a nasty shock for those Sackville-Bagginses" << Period << endl;
+cout << "They thought they were going to get Bag End, that time when he went off and was thought to be dead" << Period << endl;
+cout << "And then he comes back and orders them off; and he goes on living and living, and never looking a day older, bless him" << ExclamationMark << endl;
+cout << "And suddenly he produces an heir, and has all the papers made out proper" << Period << endl;
+cout << "The Sackville-Bagginses won't never see the inside of Bag End now, or it is to be hoped not" << Period << endl;
+
+cout << "'There's a tidy bit of money tucked away up there, I hear tell,' said a stranger, a visitor on business from Michel Delving in the Westfarthing" << Period << endl;
+cout << Apostrophe << "All the top of your hill is full of tunnels packed with chests of gold and silver, and jools, by what I've heard" << Period << Apostrophe << endl;
+cout << "'Then you've heard more than I can speak to,' answered the Gaffer. I know nothing about jools" << Period << endl;
+cout << "Mr. Bilbo is free with his money, and there seems no lack of it; but I know of no tunnel-making" << Period << endl;
+cout << "I saw Mr. Bilbo when he came back, a matter of sixty years ago, when I was a lad" << Period << endl;
+cout << "I'd not long come prentice to old Holman" << Space << Left_Parent << "him being my dad's cousin" << Right_Parent << Comma << endl;
+cout << "but he had me up at Bag End helping him to keep folks from trampling and trespessing all over the garden while the sale was on" << Period << endl;
+cout << "And in the middle of it all Mr. Bilbo comes up the Hill with a pony and some mighty big bags and a couple of chests" << Period << endl;
+cout << "I don't doubt they were mostly full of treasure he had picked up in foreign parts" << Comma << endl;
+cout << "where there be mountains of gold, they say; but there wasn't enough to fill tunnels" << Period << endl;
+cout << "But my lad Sam will know more about that" << Period << endl;
+cout << "He's in and out of Bag End" << Period << endl;
+cout << "Crazy about stories of the old days he is, and he listens to all Mr. Bilbo's tales" << Period << endl;
+cout << "Mr. Bilbo has learned him his letters - meaning no harm, mark you, and I hope no harm will come of it" << Period << endl;
+
+cout << Apostrophe << "Elves and Dragons" << Apostrophe << Space << "I says to him" << Period << endl;
+cout << "Cabbages and potatoes are better for me and you" << Period << endl;
+cout << "Don't go getting mixed up in the business of your betters" << Comma << Space << "or you'll land in trouble too big for you" << Comma << Space << "I says to him" << Period << endl;
+cout << "And I might say it to others" << Comma << Apostrophe << Space << "he added with a look at the stranger and the miller" << Period << endl;
+cout << "But the Gaffer did not convince his audience" << Period << endl;
+cout << "The legend of Bilbo's wealth was now too firmly fixed in the minds of the younger generation of hobbits" << Period << endl;
+cout << Apostrophe << Ah << Comma << Space << "but he has likely enough been adding to what he brought at first" << Comma << Apostrophe << Space << "argued the miller" << Comma << Space << "voicing common opinion" << Period << endl;
+cout << "He's often away from home" << Period << endl;
+cout << "And look at the outlandish folk that visit him" << Colon << endl;
+cout << "dwarves coming at night, and that old wandering conjuror, Gandalf, and all" << Period << endl;
+cout << "You can say what you like, Gaffer, but Bag End's a queer place, and its folk are queerer" << Period << endl;
+cout << Apostrophe << "And you can say what you like, about what you know no more of than you do of boating, Mr. Sandyman" << Comma << Apostrophe << endl;
+cout << "retorted the Gaffer, disliking the miller even more than usual" << Period << endl;
+cout << "If that's being queer, then we could do with a bit more queerness in these parts" << Period << endl;
+cout << "There's some not far away that wouldn't offer a pint of beer to a friend, if they lived in a hole with golden walls" << Period << endl;
+cout << "But they do things proper at Bag End" << Period << endl;
+cout << "Our Sam says that everyone's going to be invited to the party, and there's going to be presents, mark you, presents for all - this very month as is" << Period << endl;
+
+cout << "That very month was September" << Comma << Space << "and as fine as you could ask" << Period << endl;
+cout << "A day or two later a rumour" << Space << Left_Parent << "probably started by the knowledgeable Sam" << Right_Parent << endl;
+cout << "was spread about that there were going to be fireworks" << Space << Hyphen << Space << fireworks << Comma << Space << "what is more" << Comma << endl;
+cout << "such as had not been seen in the Shire for nigh on a century" << Comma << Space << "not indeed since the Old Took died" << Period << endl;
+cout << "Days passed and The Day drew nearer" << Period << endl;
+cout << "An odd-looking wagon laden with odd-looking packages rolled into Hobbiton one evening and toiled up the Hill to Bag End" << Period << endl;
+cout << "The startled hobbits peered out of lamplit doors to gape at it" << Period << endl;
+cout << "It was driven by outlandish folk" << Comma << Space << "singing strange songs" << Colon << Space << "dwarves with long beards and deep hoods" << Period << endl;
+cout << "A few of them remained at Bag End" << Period << endl;
+cout << "At the end of the second week in September a cart came in through Bywater from the direction of the Brandywine Bridge in broad daylight" << Period << endl;
+cout << "An old man was driving it all alone" << Period << endl;
+cout << "He wore a tall pointed blue hat, a long grey cloak, and a silver scarf" << Period << endl;
+cout << "He had a long white beard and bushy eyebrows that stuck out beyond the brim of his hat" << Period << endl;
+cout << "Small hobbit-children ran after the cart all through Hobbiton and right up the hill" << Period << endl;
+cout << "It had a cargo of fireworks, as they rightly guessed" << Period << endl;
+cout << "At Bilbo's front door the old man began to unload" << Colon << endl;
+cout << "there were great bundles of fireworks of all sorts and shapes, each labelled with a large red G and the elf-rune" << Period << endl;
+
+cout << "That was Gandalf's mark, of course, and the old man was Gandalf the Wizard" << Comma << endl;
+cout << "whose fame in the Shire was due mainly to his skill with fires, smokes, and lights" << Period << endl;
+cout << "His real business was far more difficult and dangerous, but the Shire-folk knew nothing about it" << Period << endl;
+cout << "To them he was just one of the 'attractions' at the Party" << Period << endl;
+cout << "Hence the excitement of the hobbit-children" << Period << endl;
+cout << Apostrophe << "G for Grand" << ExclamationMark << Apostrophe << Space << "they shouted, and the old man smiled" << Period << endl;
+cout << "They knew him by sight, though he only appeared in Hobbiton occasionally and never stopped long" << Semicolon << endl;
+cout << "but neither they nor any but the oldest of their elders had seen one of his firework displays" << Space << Hyphen << Space << "they now belonged to the legendary past" << Period << endl;
+cout << "When the old man, helped by Bilbo and some dwarves, had finished unloading" << Period << endl;
+cout << "Bilbo gave a few pennies away" << Semicolon << Space << "but not a single squib or cracker was forthcoming" << Comma << Space << "to the disappointment of the onlookers" << Period << endl;
+cout << Apostrophe << "Run away now" << ExclamationMark << Apostrophe << Space << "said Gandalf" << Period << endl;
+cout << Apostrophe << "You will get plenty when the time comes" << Period << Apostrophe << endl;
+cout << "Then he disappeared inside with Bilbo" << Comma << Space << "and the door was shut" << Period << endl;
+cout << "The young hobbits stared at the door in vain for a while" << Comma << Space << "and then made off" << Comma << Space << "feeling that the day of the party would never come" << Period << endl;
+
+cout << "Inside Bag End, Bilbo and Gandalf were sitting at the open window of a small room looking out west on to the garden" << Period << endl;
+cout << "The late afternoon was bright and peaceful" << Period << endl;
+cout << "The flowers glowed red and golden" << Colon << endl;
+cout << "snap-dragons and sun-flowers" << Comma << Space << "and nasturtiums trailing all over the turf walls and peeping in at the round windows" << Period << endl;
+cout << Apostrophe << "How bright your garden looks" << ExclamationMark << Apostrophe << Space << "said Gandalf" << Period << endl;
+cout << Apostrophe << Yes << Comma << Apostrophe << Space << "said Bilbo" << Period << endl;
+cout << "I am very fond indeed of it" << Comma << Space << "and of all the dear old Shire" << Semicolon << Space << "but I think I need a holiday" << Period << Apostrophe << endl;
+cout << Apostrophe << "You mean to go on with your plan then" << QuestionMark << Apostrophe << endl;
+cout << "I do" << Period << endl;
+cout << "I made up my mind months ago" << Comma << Space << "and I haven't changed it" << Period << endl;
+cout << "Very well" << Period << endl;
+cout << "It is no good saying any more" << Period << endl;
+cout << "Stick to your plan" << Space << Hyphen << Space << "your whole plan, mind" << Space << Hyphen << Space << "and I hope it will turn out for the best, for you, and for all of us" << Period << endl;
+cout << "I hope so" << Period << endl;
+cout << "Anyway I mean to enjoy myself on Thursday, and have my little joke" << Period << endl;
+cout << Apostrophe << "Who will laugh" << Comma << Space << "I wonder" << QuestionMark << Apostrophe << Space << "said Gandalf" << Comma << Space << "shaking his head" << Period << endl;
+cout << Apostrophe << "We shall see" << Comma << Apostrophe << Space << "said Bilbo" << Period << endl;
+
+cout << "The next day more carts rolled up the Hill, and still more carts.";
+cout << "There might have been some grumbling about 'dealing locally', but that very week orders began to pour out of Bag End for every kind of provision,";
+cout << "commodity, or luxury that could be obtained in Hobbiton or Bywater or anywhere in the neighbourhood.";
+cout << "People became enthusiastic; and they began to tick off the days on the calendar; and they watched eagerly for the postman, hoping for invitations.";
+cout << "Before long the invitations began pouring out, and the Hobbiton post-office was blocked, and the Bywater post-office was snowed under, and voluntary assistant postmen were called for.";
+cout << "There was a constant stream of them going up the Hill, carrying hundreds of polite variations on Thank you, I shall certainly come.";
+cout << "A notice appeared on the gate at Bag End:";
+cout << "NO ADMITTANCE EXCEPT ON PARTY BUSINESS.";
+cout << "Even those who had, or pretended to have Party Business were seldom allowed inside.";
+cout << "Bilbo was busy: writing invitations, ticking off answers, packing up presents, and making some private preparations of his own.";
+cout << "From the time of Gandalf's arrival he remained hidden from view.";
+cout << "One morning the hobbits woke to find the large field, south of Bilbo's front door, covered with ropes and poles for tents and pavilions.";
+cout << "A special entrance was cut into the bank leading to the road, and wide steps and a large white gate were built there.";
+cout << "The three hobbit-families of Bagshot Row, adjoining the field, were intensely interested and generally envied.";
+cout << "Old Gaffer Gamgee stopped even pretending to work in his garden.";
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
 
 
+The tents began to go up. There was a specially large pavilion, so big that the tree that grew in the field was right inside it, and stood proudly near one end, at the head of the chief table. Lanterns were hung on all its branches. More promising still (to the hobbits' mind): an enormous open-air kitchen was erected in the north corner of the field. A draught of cooks, from every inn and eating-house for miles around, arrived to supplement the dwarves and other odd folk that were quartered at Bag End. Excitement rose to its height.
+Then the weather clouded over. That was on Wednesday the eve of the Party. Anxiety was intense. Then Thursday, September the 22nd, actually dawned. The sun got up, the clouds vanished, flags were unfurled and the fun began.
+Bilbo Baggins called it a party, but it was really a variety of entertainments rolled into one. Practically everybody living near was invited. A very few were overlooked by accident, but as they turned up all the same, that did not matter. Many people from other parts of the Shire were also asked; and there were even a few from outside the borders. Bilbo met the guests (and additions) at the new white gate in person. He gave away presents to all and sundry – the latter were those who went out again by a back way and came in again by the gate. Hobbits give presents to other people on their own birthdays. Not very expensive ones, as a rule, and not so lavishly as on this occasion; but it was not a bad system. Actually in Hobbiton and Bywater every day in the year it was somebody's birthday, so that every hobbit in those parts had a fair chance of at least one present at least once a week. But they never got tired of them.
+On this occasion the presents were unusually good. The hobbit-children were so excited that for a while they almost forgot about eating. There were toys the like of which they had never seen before, all beautiful and some obviously magical. Many of them had indeed been ordered a year before, and had come all the way from the Mountain and from Dale, and were of real dwarf-make.
+When every guest had been welcomed and was finally inside the gate, there were songs, dances, music, games, and, of course, food and drink. There were three official meals: lunch, tea, and dinner (or supper). But lunch and tea were marked chiefly by the fact that at those times all the guests were sitting down and eating together. At other times there were merely lots of people eating and drinking – continuously from elevenses until six-thirty, when the fireworks started.
+The fireworks were by Gandalf: they were not only brought by him, but designed and made by him; and the special effects, set pieces, and flights of rockets were let off by him. But there was also a generous distribution of squibs, crackers, backarappers, sparklers, torches, dwarf-candles, elf-fountains, goblin-barkers and thunder-claps. They were all superb. The art of Gandalf improved with age.
+There were rockets like a flight of scintillating birds singing with sweet voices. There were green trees with trunks of dark smoke: their leaves opened like a whole spring unfolding in a moment, and their shining branches dropped glowing flowers down upon the astonished hobbits, disappearing with a sweet scent just before they touched their upturned faces. There were fountains of butterflies that flew glittering into the trees; there were pillars of coloured fires that rose and turned into eagles, or sailing ships, or a phalanx of flying swans; there was a red thunderstorm and a shower of yellow rain; there was a forest of silver spears that sprang suddenly into the air with a yell like an embattled army, and came down again into the Water with a hiss like a hundred hot snakes. And there was also one last surprise, in honour of Bilbo, and it startled the hobbits exceedingly, as Gandalf intended. The lights went out. A great smoke went up. It shaped itself like a mountain seen in the distance, and began to glow at the summit. It spouted green and scarlet flames. Out flew a red-golden dragon – not life-size, but terribly life-like: fire came from his jaws, his eyes glared down; there was a roar, and he whizzed three times over the heads of the crowd. They all ducked, and many fell flat on their faces. The dragon passed like an express train, turned a somersault, and burst over Bywater with a deafening explosion.
+'That is the signal for supper!' said Bilbo. The pain and alarm vanished at once, and the prostrate hobbits leaped to their feet. There was a splendid supper for everyone; for everyone, that is, except those invited to the special family dinner-party. This was held in the great pavilion with the tree. The invitations were limited to twelve dozen (a number also called by the hobbits one Gross, though the word was not considered proper to use of people); and the guests were selected from all the families to which Bilbo and Frodo were related, with the addition of a few special unrelated friends (such as Gandalf). Many young hobbits were included, and present by parental permission; for hobbits were easy-going with their children in the matter of sitting up late, especially when there was a chance of getting them a free meal. Bringing up young hobbits took a lot of provender.
+There were many Bagginses and Boffins, and also many Tooks and Brandybucks; there were various Grubbs (relations of Bilbo Baggins' grandmother), and various Chubbs (connexions of his Took grandfather); and a selection of Burrowses, Bolgers, Bracegirdles, Brockhouses, Goodbodies, Hornblowers and Proudfoots. Some of these were only very distantly connected with Bilbo, and some of them had hardly ever been in Hobbiton before, as they lived in remote corners of the Shire. The Sackville-Bagginses were not forgotten. Otho and his wife Lobelia were present. They disliked Bilbo and detested Frodo, but so magnificent was the invitation card, written in golden ink, that they had felt it was impossible to refuse. Besides, their cousin, Bilbo, had been specializing in food for many years and his table had a high reputation.
+All the one hundred and forty-four guests expected a pleasant feast; though they rather dreaded the after-dinner speech of their host (an inevitable item). He was liable to drag in bits of what he called poetry; and sometimes, after a glass or two, would allude to the absurd adventures of his mysterious journey. The guests were not disappointed: they had a very pleasant feast, in fact an engrossing entertainment: rich, abundant, varied, and prolonged. The purchase of provisions fell almost to nothing throughout the district in the ensuing weeks; but as Bilbo's catering had depleted the stocks of most stores, cellars and warehouses for miles around, that did not matter much.
+After the feast (more or less) came the Speech. Most of the company were, however, now in a tolerant mood, at that delightful stage which they called 'filling up the corners'. They were sipping their favourite drinks, and nibbling at their favourite dainties, and their fears were forgotten. They were prepared to listen to anything, and to cheer at every full stop.
+My dear People, began Bilbo, rising in his place. 'Hear! Hear! Hear!' they shouted, and kept on repeating it in chorus, seeming reluctant to follow their own advice. Bilbo left his place and went and stood on a chair under the illuminated tree. The light of the lanterns fell on his beaming face; the golden buttons shone on his embroidered silk waistcoat. They could all see him standing, waving one hand in the air, the other was in his trouser-pocket.
+My dear Bagginses and Boffins, he began again; and my dear Tooks and Brandybucks, and Grubbs, and Chubbs, and Burrowses, and Hornblowers, and Bolgers, Bracegirdles, Goodbodies, Brockhouses and Proudfoots. 'ProudFEET!' shouted an elderly hobbit from the back of the pavilion. His name, of course, was Proudfoot, and well merited; his feet were large, exceptionally furry, and both were on the table.
+Proudfoots, repeated Bilbo. Also my good Sackville-Bagginses that I welcome back at last to Bag End. Today is my one hundred and eleventh birthday: I am eleventy-one today! 'Hurray! Hurray! Many Happy Returns!' they shouted, and they hammered joyously on the tables. Bilbo was doing splendidly. This was the sort of stuff they liked: short and obvious.
+I hope you are all enjoying yourselves as much as I am. Deafening cheers. Cries of Yes (and No). Noises of trumpets and horns, pipes and flutes, and other musical instruments. There were, as has been said, many young hobbits present. Hundreds of musical crackers had been pulled. Most of them bore the mark DALE on them; which did not convey much to most of the hobbits, but they all agreed they were marvellous crackers. They contained instruments, small, but of perfect make and enchanting tones. Indeed, in one corner some of the young Tooks and Brandybucks, supposing Uncle Bilbo to have finished (since he had plainly said all that was necessary), now got up an impromptu orchestra, and began a merry dance-tune. Master Everard Took and Miss Melilot Brandybuck got on a table and with bells in their hands began to dance the Springle-ring: a pretty dance, but rather vigorous.
+But Bilbo had not finished. Seizing a horn from a youngster near by, he blew three loud hoots. The noise subsided. I shall not keep you long, he cried. Cheers from all the assembly. I have called you all together for a Purpose. Something in the way that he said this made an impression. There was almost silence, and one or two of the Tooks pricked up their ears.
+Indeed, for Three Purposes! First of all, to tell you that I am immensely fond of you all, and that eleventy-one years is too short a time to live among such excellent and admirable hobbits. Tremendous outburst of approval.
+I don't know half of you half as well as I should like; and I like less than half of you half as well as you deserve. This was unexpected and rather difficult. There was some scattered clapping, but most of them were trying to work it out and see if it came to a compliment.
+Secondly, to celebrate my birthday. Cheers again. I should say: OUR birthday. For it is, of course, also the birthday of my heir and nephew, Frodo. He comes of age and into his inheritance today. Some perfunctory clapping by the elders; and some loud shouts of 'Frodo! Frodo! Jolly old Frodo,' from the juniors. The Sackville-Bagginses scowled, and wondered what was meant by 'coming into his inheritance'. Together we score one hundred and forty-four. Your numbers were chosen to fit this remarkable total: One Gross, if I may use the expression. No cheers. This was ridiculous. Many of his guests, and especially the Sackville-Bagginses, were insulted, feeling sure they had only been asked to fill up the required number, like goods in a package. 'One Gross, indeed! Vulgar expression.'
+It is also, if I may be allowed to refer to ancient history, the anniversary of my arrival by barrel at Esgaroth on the Long Lake; though the fact that it was my birthday slipped my memory on that occasion. I was only fifty-one then, and birthdays did not seem so important. The banquet was very splendid, however, though I had a bad cold at the time, I remember, and could only say 'thag you very buch'. I now repeat it more correctly: Thank you very much for coming to my little party. Obstinate silence. They all feared that a song or some poetry was now imminent; and they were getting bored. Why couldn't he stop talking and let them drink his health? But Bilbo did not sing or recite. He paused for a moment.
+Thirdly and finally, he said, I wish to make an ANNOUNCEMENT. He spoke this last word so loudly and suddenly that everyone sat up who still could. I regret to announce that – though, as I said, eleventy-one years is far too short a time to spend among you – this is the END. I am going. I am leaving NOW. GOOD-BYE!
+He stepped down and vanished. There was a blinding flash of light, and the guests all blinked. When they opened their eyes Bilbo was nowhere to be seen. One hundred and forty-four flabbergasted hobbits sat back speechless. Old Odo Proudfoot removed his feet from the table and stamped. Then there was a dead silence, until suddenly, after several deep breaths, every Baggins, Boffin, Took, Brandybuck, Grubb, Chubb, Burrows, Bolger, Bracegirdle, Brockhouse, Goodbody, Hornblower, and Proudfoot began to talk at once.
+It was generally agreed that the joke was in very bad taste, and more food and drink were needed to cure the guests of shock and annoyance. 'He's mad. I always said so,' was probably the most popular comment. Even the Tooks (with a few exceptions) thought Bilbo's behaviour was absurd. For the moment most of them took it for granted that his disappearance was nothing more than a ridiculous prank.
+But old Rory Brandybuck was not so sure. Neither age nor an enormous dinner had clouded his wits, and he said to his daughter-in-law, Esmeralda: 'There's something fishy in this, my dear! I believe that mad Baggins is off again. Silly old fool. But why worry? He hasn't taken the vittles with him.' He called loudly to Frodo to send the wine round again.
+Frodo was the only one present who had said nothing. For some time he had sat silent beside Bilbo's empty chair, and ignored all remarks and questions. He had enjoyed the joke, of course, even though he had been in the know. He had difficulty in keeping from laughter at the indignant surprise of the guests. But at the same time he felt deeply troubled: he realized suddenly that he loved the old hobbit dearly. Most of the guests went on eating and drinking and discussing Bilbo Baggins' oddities, past and present; but the Sackville-Bagginses had already departed in wrath. Frodo did not want to have any more to do with the party. He gave orders for more wine to be served; then he got up and drained his own glass silently to the health of Bilbo, and slipped out of the pavilion.
+As for Bilbo Baggins, even while he was making his speech, he had been fingering the golden ring in his pocket: his magic ring that he had kept secret for so many years. As he stepped down he slipped it on his finger, and he was never seen by any hobbit in Hobbiton again.
+He walked briskly back to his hole, and stood for a moment listening with a smile to the din in the pavilion and to the sounds of merrymaking in other parts of the field. Then he went in. He took off his party clothes, folded up and wrapped in tissue-paper his embroidered silk waistcoat, and put it away. Then he put on quickly some old untidy garments, and fastened round his waist a worn leather belt. On it he hung a short sword in a battered black-leather scabbard. From a locked drawer, smelling of moth-balls, he took out an old cloak and hood. They had been locked up as if they were very precious, but they were so patched and weatherstained that their original colour could hardly be guessed: it might have been dark green. They were rather too large for him. He then went into his study, and from a large strong-box took out a bundle wrapped in old cloths, and a leather-bound manuscript; and also a large bulky envelope. The book and bundle he stuffed into the top of a heavy bag that was standing there, already nearly full. Into the envelope he slipped his golden ring, and its fine chain, and then sealed it, and addressed it to Frodo. At first he put it on the mantelpiece, but suddenly he removed it and stuck it in his pocket. At that moment the door opened and Gandalf came quickly in.
+'Hullo!' said Bilbo. 'I wondered if you would turn up.'
 
 
-The only real official in the Shire at this date was the Mayor of Michel Delving (or of the Shire), who was elected every seven years at the Free Fair on the White Downs at the Lithe, that is at Midsummer. As mayor almost his only duty was to preside at banquets, given on the Shire-holidays, which occurred at frequent intervals. But the offices of Postmaster and First Shirriff were attached to the mayoralty, so that he managed both the Messenger Service and the Watch. These were the only Shire-services, and the Messengers were the most numerous, and much the busier of the two. By no means all Hobbits were lettered, but those who were wrote constantly to all their friends (and a selection of their relations) who lived further off than an afternoon's walk.
-The Shirriffs was the name that the Hobbits gave to their police, or the nearest equivalent that they possessed. They had, of course, no uniforms (such things being quite unknown), only a feather in their caps; and they were in practice rather haywards than policemen, more concerned with the strayings of beasts than of people. There were in all the Shire only twelve of them, three in each Farthing, for Inside Work. A rather larger body, varying at need, was employed to 'beat the bounds', and to see that Outsiders of any kind, great or small, did not make themselves a nuisance.
-At the time when this story begins the Bounders, as they were called, had been greatly increased. There were many reports and complaints of strange persons and creatures prowling about the borders, or over them: the first sign that all was not quite as it should be, and always had been except in tales and legends of long ago. Few heeded the sign, and not even Bilbo yet had any notion of what it portended. Sixty years had passed since he set out on his memorable journey, and he was old even for Hobbits, who reached a hundred as often as not; but much evidently still remained of the considerable wealth that he had brought back. How much or how little he revealed to no one, not even to Frodo his favourite 'nephew'. And he still kept secret the ring that he bad found.
 
-As is told in The Hobbit, there came one day to Bilbo's door the great Wizard, Gandalf the Grey, and thirteen dwarves with him: none other, indeed, than Thorin Oakenshield, descendant of kings, and his twelve companions in exile. With them he set out, to his own lasting astonishment, on a morning of April, it being then the year 1341 Shire-reckoning, on a quest of great treasure, the dwarf-hoards of the Kings under the Mountain, beneath Erebor in Dale, far off in the East. The quest was successful, and the Dragon that guarded the hoard was destroyed. Yet, though before all was won the Battle of Five Armies was fought, and Thorin was slain, and many deeds of renown were done, the matter would scarcely have concerned later history, or earned more than a note in the long annals of the Third Age, but for an 'accident' by the way. The party was assailed by Orcs in a high pass of the Misty Mountains as they went towards Wilderland; and so it happened that Bilbo was lost for a while in the black orc-mines deep under the mountains, and there, as he groped in vain in the dark, he put his hand on a ring, lying on the floor of a tunnel. He put it in his pocket. It seemed then like mere luck.
-Trying to find his way out. Bilbo went on down to the roots of the mountains, until he could go no further. At the bottom of the tunnel lay a cold lake far from the light, and on an island of rock in the water lived Gollum. He was a loathsome little creature: he paddled a small boat with his large flat feet, peering with pale luminous eyes and catching blind fish with his long fingers, and eating them raw. He ate any living thing, even orc, if he could catch it and strangle it without a struggle. He possessed a secret treasure that had come to him long ages ago, when he still lived in the light: a ring of gold that made its wearer invisible. It was the one thing he loved, his 'precious', and he talked to it, even when it was not with him. For he kept it hidden safe in a hole on his island, except when he was hunting or spying on the ores of the mines.
-Maybe he would have attacked Bilbo at once, if the ring had been on him when they met; but it was not, and the hobbit held in his hand an Elvish knife, which served him as a sword. So to gain time Gollum challenged Bilbo to the Riddle-game, saying that if he asked a riddle which Bilbo could not guess, then he would kill him and eat him; but if Bilbo defeated him, then he would do as Bilbo wished: he would lead him to a way out of the tunnels.
-Since he was lost in the dark without hope, and could neither go on nor back. Bilbo accepted the challenge; and they asked one another many riddles. In the end Bilbo won the game, more by luck (as it seemed) than by wits; for he was stumped at last for a riddle to ask, and cried out, as his hand came upon the ring he lad picked up and forgotten: What haw I got in my pocket? This Gollum failed to answer, though he demanded three guesses.
-The Authorities, it is true, differ whether this last question was a mere 'question' and not a 'riddle' according to the strict rules of the Game; but all agree that, after accepting it and trying to guess the answer, Gollum was bound by his promise. And Bilbo pressed him to keep his word; for the thought came to him that this slimy creature might prove false, even though such promises were held sacred, and of old all but the wickedest things feared to break them. But after ages alone in the dark Gollum's heart was black, and treachery was in it. He slipped away, and returned to the island, of which Bilbo knew nothing, not far off in the dark water. There, he thought, lay his ring. He was hungry now, and angry, and once his 'precious' was with him he would not fear any weapon at all.
-But the ring was not on the island; he had lost it, it was gone. His screech sent a shiver down Bilbo's back, though he did not yet understand what had happened. But Gollum had at last leaped to a guess, too late. What has it got in its pocketses? he cried. The light in his eyes was like a green flame as he sped back to murder the hobbit and recover his 'precious'. Just in time Bilbo saw his peril, and he fled blindly up the passage away from the water; and once more he was saved by his luck. For just as he ran he put his hand in his pocket, and the ring slipped quietly on to his finger. So it was that Gollum passed him without seeing him, and went to guard the way out, lest the 'thief' should escape. Warily Bilbo followed him, as he went along, cursing, and talking to himself about his 'precious'; from which talk at last even Bilbo guessed the truth, and hope came to him in the darkness: he himself had found the marvellous ring and a chance of escape from the orcs and from Gollum.
-At length they came to a halt before an unseen opening that led to the lower gates of the mines, on the eastward side of the mountains. There Gollum crouched at bay, smelling and listening; and Bilbo was tempted to slay him with his sword. But pity stayed him, and though he kept the ring, in which his only hope lay, he would not use it to help him kill the wretched creature at a disadvantage. In the end, gathering his courage, he leaped over Gollum in the dark, and fled away down the passage, pursued by his enemy's cries of hate and despair: Thief, thief! Baggins! We hates it for ever!
 
-Now it is a curious fact that this is not the story as Bilbo first told it to his companions. To them his account was that Gollum had promised to give him a present, if he won the game; but when Gollum went to fetch it from his island he found the treasure was gone: a magic ring, which had been given to him long ago on his birthday. Bilbo guessed that this was the very ring that he had found, and as he had won the game, it was already his by right. But being in a tight place, he said nothing about it, and made Gollum show him the way out, as a reward instead of a present. This account Bilbo set down in his memoirs, and he seems never to have altered it himself, not even after the Council of Elrond. Evidently it still appeared in the original Red Book, as it did in several of the copies and abstracts. But many copies contain the true account (as an alternative), derived no doubt from notes by Frodo or Samwise, both of whom learned the truth, though they seem to have been unwilling to delete anything actually written by the old hobbit himself.
-Gandalf, however, disbelieved Bilbo's first story, as soon as he heard it, and he continued to be very curious about the ring. Eventually he got the true tale out of Bilbo after much questioning, which for a while strained their friendship; but the wizard seemed to think the truth important. Though he did not say so to Bilbo, he also thought it important, and disturbing, to find that the good hobbit had not told the truth from the first: quite contrary to his habit. The idea of a 'present' was not mere hobbitlike invention, all the same. It was suggested to Bilbo, as he confessed, by Gollum's talk that he overheard; for Gollum did, in fact, call the ring his 'birthday present', many times. That also Gandalf thought strange and suspicious; but he did not discover the truth in this point for many more years, as will be seen in this book.
 
-Of Bilbo's later adventures little more need be said here. With the help of the ring he escaped from the orc-guards at the gate and rejoined his companions. He used the ring many times on his quest, chiefly for the help of his friends; but he kept it secret from them as long as he could. After his return to his home he never spoke of it again to anyone, save Gandalf and Frodo; and no one else in the Shire knew of its existence, or so he believed. Only to Frodo did he show the account of his Journey that he was writing.
-His sword, Sting, Bilbo hung over his fireplace, and his coat of marvellous mail, the gift of the Dwarves from the Dragon-hoard, he lent to a museum, to the Michel Delving Mathom-house in fact. But he kept in a drawer at Bag End the old cloak and hood that he had worn on his travels; and the ring, secured by a fine chain, remained in his pocket.
-He returned to his home at Bag End on June the 22nd in his fifty-second year (S.R. 1342), and nothing very notable occurred in the Shire until Mr. Baggins began the preparations for the celebration of his hundred-and-eleventh birthday (S.R. 1401). At this point this History begins.
 
-At the end of the Third Age the part played by the Hobbits in the great events that led to the inclusion of the Shire in the Reunited Kingdom awakened among them a more widespread interest in their own history; and many of their traditions, up to that time still mainly oral, were collected and Written down. The greater families were also concerned with events in the Kingdom at large, and many of their members studied its ancient histories and legends. By the end of the first century of the Fourth Age there were already to be found in the Shire several libraries that contained many historical books and records.
-The largest of these collections were probably at Undertowers, at Great Smials, and at Brandy Hall. This account of the end of the Third Age is drawn mainly from the Red Book of Westmarch. That most important source for the history of the War of the Ring was so called because it was long preserved at Undertowers, the home of the Fairbairns, Wardens of the Westmarch. It was in origin Bilbo's private diary, which he took with him to Rivendell. Frodo brought it back to the Shire, together with many loose leaves of notes, and during S.R. 1420-1 he nearly filled its pages with his account of the War. But annexed to it and preserved with it, probably m a single red case, were the three large volumes, bound in red leather, that Bilbo gave to him as a parting gift. To these four volumes there was added in Westmarch a fifth containing commentaries, genealogies, and various other matter concerning the hobbit members of the Fellowship.
-The original Red Book has not been preserved, but many copies were made, especially of the first volume, for the use of the descendants of the children of Master Samwise. The most important copy, however, has a different history. It was kept at Great Smials, but it was written in Condor, probably at the request of the great-grandson of Peregrin, and completed in S.R. 1592 (F.A. 172). Its southern scribe appended this note: Findegil, King's Writer, finished this work in IV 172. It is an exact copy in all details of the Thain's Book m Minas Tirith. That book was a copy, made at the request of King Elessar, of the Red Book of the Periannath, and was brought to him by the Thain Peregrin when he retired to Gondor in IV 64.
-The Thain's Book was thus the first copy made of the Red Book and contained much that was later omitted or lost. In Minas Tirith it received much annotation, and many corrections, especially of names, words, and quotations in the Elvish languages; and there was added to it an abbreviated version of those parts of The Tale of Aragorn and Arwen which lie outside the account of the War. The full tale is stated to have been written by Barahir, grandson of the Steward Faramir, some time after the passing of the King. But the chief importance of Findegil's copy is that it alone contains the whole of Bilbo's 'Translations from the Elvish'. These three volumes were found to be a work of great skill and learning in which, between 1403 and 1418, he had used all the sources available to him in Rivendell, both living and written. But since they were little used by Frodo, being almost entirely concerned with the Elder Days, no more is said of them here.
-Since Meriadoc and Peregrin became the heads of their great families, and at the same time kept up their connexions with Rohan and Gondor, the libraries at Bucklebury and Tuckborough contained much that did not appear in the Red Book. In Brandy Hall there were many works dealing with Eriador and the history of Rohan. Some of these were composed or begun by Meriadoc himself, though in the Shire he was chiefly remembered for his Herblore of the Shire, and for his Reckoning of Years m which he discussed the relation of the calendars of the Shire and Bree to those of Rivendell, Gondor, and Rohan. He also wrote a short treatise on Old Words and Names in the Shire, having special interest in discovering the kinship with the language of the Rohirrim of such 'shire-words' as mathom and old elements in place names.
-At Great Smials the books were of less interest to Shire-folk, though more important for larger history. None of them was written by Peregrin, but he and his successors collected many manuscripts written by scribes of Gondor: mainly copies or summaries of histories or legends relating to Elendil and his heirs. Only here in the Shire were to be found extensive materials for the history of Númenor and the arising of Sauron. It was probably at Great Smials that The Tale of Years was put together, with the assistance of material collected by Meriadoc. Though the dates given are often conjectural, especially for the Second Age, they deserve attention. It is probable that Meriadoc obtained assistance and information from Rivendell, which he visited more than once. There, though Elrond had departed, his sons long remained, together with some of the High-elven folk. It is said that Celeborn went to dwell there after the departure of Galadriel; but there is no record of the day when at last he sought the Grey Havens, and with him went the last living memory of the Elder Days in Middle-earth.
 
 
 
