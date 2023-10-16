@@ -1648,7 +1648,7 @@ cout << "his hand jerked back, and the packet fell on the floor" << Period << en
 cout << "Before he could pick it up, the wizard stooped and seized it and set it in its place" << Period << endl;
 cout << "A spasm of anger passed swiftly over the hobbit's face again" << Period << endl;
 cout << "Suddenly it gave way to a look of relief and a laugh" << Period << endl;
-cout << Apostrophe << "Well" << Comma << Space << "that's that" << Comma << Apostrophe << Space << "he said" << Period << endl;
+cout << Apostrophe << Well << Comma << Space << "that's that" << Comma << Apostrophe << Space << "he said" << Period << endl;
 cout << Apostrophe << "Now I'm off" << ExclamationMark << Apostrophe << endl;
 cout << "They went out into the hall" << Period << endl;
 cout << "Bilbo chose his favourite stick from the stand" << Semicolon << endl;
@@ -1744,42 +1744,78 @@ cout << "and the crumbs and cracker-paper, the forgotten bags and gloves and han
 cout << "and the uneaten food" << Space << Left_Parent << "a very small item" << Right_Parent << Period << endl;
 cout << "Then a number of other people came" << Space << Left_Parent << "without orders" << Right_Parent << Colon << endl;
 
-cout << "Bagginses, and Boffins, and Bolgers, and Tooks, and other guests that lived or were staying near.";
-cout << "By mid-day, when even the best-fed were out and about again, there was a large crowd at Bag End, uninvited but not unexpected.";
-cout << "Frodo was waiting on the step, smiling, but looking rather tired and worried.";
-cout << "He welcomed all the callers, but he had not much more to say than before.";
-cout << "His reply to all inquiries was simply this:";
-cout << "Mr. Bilbo Baggins has gone away;";
-cout << "as far as I know, for good.";
-cout << "Some of the visitors he invited to come inside, as Bilbo had left 'messages' for them.";
-cout << "Inside in the hall there was piled a large assortment of packages and parcels and small articles of furniture.";
-cout << "On every item there was a label tied.";
-cout << "There were several labels of this sort:";
-cout << "For ADELARD TOOK, for his VERY OWN, from Bilbo, on an umbrella.";
-cout << "Adelard had carried off many unlabelled ones.";
+Period = "";
+Semicolon = "";
+Colon = "";
+Comma = "";
+Apostrophe = "";
 
-cout << "For DORA BAGGINS in memory of a LONG correspondence, with love from Bilbo, on a large waste-paper basket.";
-cout << "Dora was Drogo's sister and the eldest surviving female relative of Bilbo and Frodo;";
-cout << "she was ninety-nine, and had written reams of good advice for more than half a century.";
-cout << "For MILO BURROWS, hoping it will be useful, from B.B., on a gold pen and ink-bottle.";
-cout << "Milo never answered letters.";
-cout << "For ANGELICA'S use, from Uncle Bilbo, on a round convex mirror.";
-cout << "She was a young Baggins, and too obviously considered her face shapely.";
-cout << "For the collection of HUGO BRACEGIRDLE, from a contributor, on an (empty) book-case.";
-cout << "Hugo was a great borrower of books, and worse than usual at returning them.";
-cout << "For LOBELIA SACKVILLE-BAGGINS, as a PRESENT, on a case of silver spoons.";
-cout << "Bilbo believed that she had acquired a good many of his spoons, while he was away on his former journey.";
-cout << "Lobelia knew that quite well.";
+Period = ".";
+Semicolon = ";";
+Colon = ":";
+Comma = ",";
+Apostrophe = "'";
 
-cout << "When she arrived later in the day, she took the point at once, but she also took the spoons.";
-cout << "This is only a small selection of the assembled presents.";
-cout << "Bilbo's residence had got rather cluttered up with things in the course of his long life.";
-cout << "It was a tendency of hobbit-holes to get cluttered up:";
-cout << "for which the custom of giving so many birthday-presents was largely responsible.";
-cout << "Not, of course, that the birthday-presents were always new,";
-cout << "there were one or two old mathoms of forgotten uses that had circulated all around the district;";
-cout << "but Bilbo had usually given new presents, and kept those that he received.";
+cout << "Bagginses, and Boffins, and Bolgers, and Tooks, and other guests that lived or were staying near" << Period << endl;
+cout << "By mid-day, when even the best-fed were out and about again, there was a large crowd at Bag End, uninvited but not unexpected" << Period << endl;
+cout << "Frodo was waiting on the step, smiling, but looking rather tired and worried" << Period << endl;
+cout << "He welcomed all the callers, but he had not much more to say than before" << Period << endl;
+cout << "His reply to all inquiries was simply this" << Colon << endl;
+cout << "Mr. Bilbo Baggins has gone away" << Semicolon << endl;
+cout << "as far as I know, for good" << Period << endl;
+cout << "Some of the visitors he invited to come inside, as Bilbo had left 'messages' for them" << Period << endl;
+cout << "Inside in the hall there was piled a large assortment of packages and parcels and small articles of furniture" << Period << endl;
+cout << "On every item there was a label tied" << Period << endl;
+cout << "There were several labels of this sort" << Colon << endl;
+cout << "For ADELARD TOOK, for his VERY OWN, from Bilbo, on an umbrella" << Period << endl;
+cout << "Adelard had carried off many unlabelled ones" << Period << endl;
+
+cout << "For DORA BAGGINS in memory of a LONG correspondence, with love from Bilbo, on a large waste-paper basket" << Period << endl;
+cout << "Dora was Drogo's sister and the eldest surviving female relative of Bilbo and Frodo" << Semicolon << endl;
+cout << "she was ninety-nine, and had written reams of good advice for more than half a century" << Period << endl;
+cout << "For MILO BURROWS, hoping it will be useful, from B.B., on a gold pen and ink-bottle" << Period << endl;
+cout << "Milo never answered letters" << Period << endl;
+cout << "For ANGELICA'S use, from Uncle Bilbo, on a round convex mirror" << Period << endl;
+cout << "She was a young Baggins, and too obviously considered her face shapely" << Period << endl;
+cout << "For the collection of HUGO BRACEGIRDLE, from a contributor, on an (empty) book-case" << Period << endl;
+cout << "Hugo was a great borrower of books, and worse than usual at returning them" << Period << endl;
+cout << "For LOBELIA SACKVILLE-BAGGINS, as a PRESENT, on a case of silver spoons" << Period << endl;
+cout << "Bilbo believed that she had acquired a good many of his spoons, while he was away on his former journey" << Period << endl;
+cout << "Lobelia knew that quite well" << Period << endl;
+
+cout << "When she arrived later in the day, she took the point at once, but she also took the spoons" << Period << endl;
+cout << "This is only a small selection of the assembled presents" << Period << endl;
+cout << "Bilbo's residence had got rather cluttered up with things in the course of his long life" << Period << endl;
+cout << "It was a tendency of hobbit-holes to get cluttered up" << Colon << endl;
+cout << "for which the custom of giving so many birthday-presents was largely responsible" << Period << endl;
+cout << "Not, of course, that the birthday-presents were always new" << Comma << endl;
+cout << "there were one or two old mathoms of forgotten uses that had circulated all around the district" << Semicolon << endl;
+cout << "but Bilbo had usually given new presents, and kept those that he received" << Period << endl;
 cout << "The old hole was now being cleared a little" << Period << endl;
+
+cout << "Every one of the various parting gifts had labels, written out personally by Bilbo, and several had some point, or some joke" << Period << endl;
+cout << "But, of course, most of the things were given where they would be wanted and welcome" << Period << endl;
+cout << "The poorer hobbits, and especially those of Bagshot Row, did very well" << Period << endl;
+cout << "Old Gaffer Gamgee got two sacks of potatoes, a new spade, a woollen waistcoat, and a bottle of ointment for creaking joints" << Period << endl;
+cout << "Old Rory Brandybuck, in return for much hospitality, got a dozen bottles of Old Winyards" << Colon << endl;
+cout << "a strong red wine from the Southfarthing, and now quite mature, as it had been laid down by Bilbo's father" << Period << endl;
+cout << "Rory quite forgave Bilbo, and voted him a capital fellow after the first bottle" << Period << endl;
+cout << "There was plenty of everything left for Frodo" << Period << endl;
+cout << "And, of course, all the chief treasures, as well as the books, pictures, and more than enough furniture, were left in his possession" << Period << endl;
+cout << "There was, however, no sign nor mention of money or jewellery" << Colon << endl;
+cout << "not a penny-piece or a glass bead was given away" << Period << endl;
+cout << "Frodo had a very trying time that afternoon" << Period << endl;
+cout << "A false rumour that the whole household was being distributed free spread like wildfire" << Semicolon << endl;
+cout << "and before long the place was packed with people who had no business there, but could not be kept out" << Period << endl;
+cout << "Labels got torn off and mixed, and quarrels broke out" << Period << endl;
+cout << "Some people tried to do swaps and deals in the hall" << Semicolon << endl;
+cout << "and others tried to make off with minor items not addressed to them, or with anything that seemed unwanted or unwatched" << Period << endl;
+cout << "The road to the gate was blocked with barrows and handcarts" << Period << endl;
+cout << "In the middle of the commotion the Sackville-Bagginses arrived" << Period << endl;
+cout << "Frodo had retired for a while and left his friend Merry Brandybuck to keep an eye on things" << Period << endl;
+cout << "When Otho loudly demanded to see Frodo, Merry bowed politely" << Period << endl;
+cout << Apostrophe << "He is indisposed" << Comma << Apostrophe << Space << "he said" << Period << endl;
+cout << Apostrophe << "He is resting" << Period << Apostrophe << endl;
 
 
 
@@ -1809,37 +1845,40 @@ cout << "The old hole was now being cleared a little" << Period << endl;
 
 
 /*
+cout << "'Hiding, you mean,' said Lobelia.
+cout << "Anyway we want to see him and we mean to see him.
+cout << "Just go and tell him so!
+cout << "Merry left them a long while in the hall, and they had time to discover their parting gift of spoons.
+cout << "It did not improve their tempers.
+cout << "Eventually they were shown into the study.
+cout << "Frodo was sitting at a table with a lot of papers in front of him.
+cout << "He looked indisposed - to see Sackville-Bagginses at any rate;
+cout << "and he stood up, fidgeting with something in his pocket.
+cout << "But he spoke quite politely.
 
-
-Every one of the various parting gifts had labels, written out personally by Bilbo, and several had some point, or some joke.
-But, of course, most of the things were given where they would be wanted and welcome.
-The poorer hobbits, and especially those of Bagshot Row, did very well.
-Old Gaffer Gamgee got two sacks of potatoes, a new spade, a woollen waistcoat, and a bottle of ointment for creaking joints.
-Old Rory Brandybuck, in return for much hospitality, got a dozen bottles of Old Winyards:
-a strong red wine from the Southfarthing, and now quite mature, as it had been laid down by Bilbo's father.
-Rory quite forgave Bilbo, and voted him a capital fellow after the first bottle.
-There was plenty of everything left for Frodo.
-And, of course, all the chief treasures, as well as the books, pictures, and more than enough furniture, were left in his possession.
-There was, however, no sign nor mention of money or jewellery:
-not a penny-piece or a glass bead was given away.
-Frodo had a very trying time that afternoon.
-A false rumour that the whole household was being distributed free spread like wildfire;
-and before long the place was packed with people who had no business there, but could not be kept out.
-Labels got torn off and mixed, and quarrels broke out.
-Some people tried to do swaps and deals in the hall;
-and others tried to make off with minor items not addressed to them, or with anything that seemed unwanted or unwatched.
-The road to the gate was blocked with barrows and handcarts.
-In the middle of the commotion the Sackville-Bagginses arrived.
-Frodo had retired for a while and left his friend Merry Brandybuck to keep an eye on things.
-When Otho loudly demanded to see Frodo, Merry bowed politely.
-'He is indisposed,' he said. 'He is resting.'
-
-'Hiding, you mean,' said Lobelia. 'Anyway we want to see him and we mean to see him. Just go and tell him so!'
-Merry left them a long while in the hall, and they had time to discover their parting gift of spoons. It did not improve their tempers. Eventually they were shown into the study. Frodo was sitting at a table with a lot of papers in front of him. He looked indisposed – to see Sackville-Bagginses at any rate; and he stood up, fidgeting with something in his pocket. But he spoke quite politely.
-The Sackville-Bagginses were rather offensive. They began by offering him bad bargain-prices (as between friends) for various valuable and unlabelled things. When Frodo replied that only the things specially directed by Bilbo were being given away, they said the whole affair was very fishy.
-'Only one thing is clear to me,' said Otho, 'and that is that you are doing exceedingly well out of it. I insist on seeing the will.'
-Otho would have been Bilbo's heir, but for the adoption of Frodo. He read the will carefully and snorted. It was, unfortunately, very clear and correct (according to the legal customs of hobbits, which demand among other things seven signatures of witnesses in red ink).
-'Foiled again!' he said to his wife. 'And after waiting sixty years. Spoons? Fiddlesticks!' He snapped his fingers under Frodo's nose and slumped off. But Lobelia was not so easily got rid of. A little later Frodo came out of the study to see how things were going on and found her still about the place, investigating nooks and comers and tapping the floors. He escorted her firmly off the premises, after he had relieved her of several small (but rather valuable) articles that had somehow fallen inside her umbrella. Her face looked as if she was in the throes of thinking out a really crushing parting remark; but all she found to say, turning round on the step, was:
+The Sackville-Bagginses were rather offensive.
+They began by offering him bad bargain-prices (as between friends) for various valuable and unlabelled things.
+When Frodo replied that only the things specially directed by Bilbo were being given away, they said the whole affair was very fishy.
+'Only one thing is clear to me,' said Otho,
+and that is that you are doing exceedingly well out of it.
+I insist on seeing the will.
+Otho would have been Bilbo's heir, but for the adoption of Frodo.
+He read the will carefully and snorted.
+It was, unfortunately, very clear and correct,
+(according to the legal customs of hobbits, which demand among other things seven signatures of witnesses in red ink).
+'Foiled again!'
+he said to his wife.
+And after waiting sixty years.
+Spoons?
+Fiddlesticks!
+He snapped his fingers under Frodo's nose and slumped off.
+But Lobelia was not so easily got rid of.
+A little later Frodo came out of the study to see how things were going on and found her still about the place,
+investigating nooks and comers and tapping the floors.
+He escorted her firmly off the premises,
+after he had relieved her of several small (but rather valuable) articles that had somehow fallen inside her umbrella.
+Her face looked as if she was in the throes of thinking out a really crushing parting remark;
+but all she found to say, turning round on the step, was:
 'You'll live to regret it, young fellow! Why didn't you go too? You don't belong here; you're no Baggins – you – you're a Brandybuck!'
 'Did you hear that, Merry? That was an insult, if you like,' said Frodo as he shut the door on her.
 'It was a compliment,' said Merry Brandybuck, 'and so, of course, not true.'
