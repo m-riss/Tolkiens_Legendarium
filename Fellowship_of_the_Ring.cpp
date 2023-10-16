@@ -32,6 +32,7 @@ bool Read_Tolkiens_Legendarium = 0;
 string J = "";
 string R = "";
 string F = "";
+string s = "";
 string Tolkien = "";
 string by = "";
 string TOLKIEN = "";
@@ -63,15 +64,42 @@ string QuestionMark = "";
 string Comma = "";
 string Semicolon = "";
 string Apostrophe = "";
-string s = "";
 string ExclamationMark = "";
 string Ah = "";
 string fireworks = "";
 string Yes = "";
+string mind = "";
+string grandmother = "";
+string Exit_Variable_Text = "";
+string Hear = "";
+string Hurray = "";
+string Hullo = "";
+string Esmeralda = "";
+string Well = "";
+string I = "";
+string ve = "";
+string anyway = "";
+string No = "";
+string Gandalf = "";
+string mountains = "";
+string er = "";
+string yes = "";
+string Everything = "";
+string It = "";
+string yet = "";
+string Bilbo = "";
+string now = "";
+string GOOD = "";
+string BYE = "";
 
+grandmother = "grandmother";
+Everything = "Everything";
 government = "government";
 APPENDICES = "APPENDICES";
+mountains = "mountains";
+Esmeralda = "Esmeralda";
 Kilobytes = "Kilobytes";
+fireworks = "fireworks";
 colonists = "colonists";
 CONTENTS = "CONTENTS";
 FOREWORD = "FOREWORD";
@@ -81,17 +109,37 @@ Chapter = "Chapter";
 TOLKIEN = "TOLKIEN";
 INDEXES = "INDEXES";
 Tolkien = "Tolkien";
+Gandalf = "Gandalf";
 Strider = "Strider";
+anyway = "anyway";
 nephew = "nephew";
+Hurray = "Hurray";
+Bilbo = "Bilbo";
 roots = "roots";
+Hullo  = "Hullo";
+BOOD = "GOOD";
+Exit_Variable_Text = "Exit";
+Hear  = "Hear";
+mind = "mind";
 Part = "Part";
 weed = "weed";
+Well = "Well";
+BYE = "BYE";
+now = "now";
 Yes = "Yes";
+yes = "yes";
+yet = "yet";
+er = "er";
 Ah = "Ah";
 by = "by";
+No = "No";
+ve = "ve";
+It = "It";
 J = "J";
 R = "R";
 F = "F";
+s = "s";
+I = "I";
 Period = ".";
 Colon = ":";
 Space = " ";
@@ -104,8 +152,8 @@ QuestionMark = "?";
 Semicolon = ";";
 Apostrophe = "'";
 ExclamationMark = "!";
-s = "s";
-fireworks = "fireworks";
+
+
 
 
 One = 1;
@@ -127,7 +175,7 @@ cin >> Number_of_bytes_without_optimization;
 
 Number_of_bytes_per_binary_kilobyte = 1024;
 Number_of_metric_kilobytes = 1000;
-Number_of_bytes_without_optimization = 346835;
+Number_of_bytes_without_optimization = 721402;
 
 Number_of_kilobytes_binary = (Number_of_bytes_without_optimization / Number_of_bytes_per_binary_kilobyte);
 
@@ -718,7 +766,7 @@ cout << "for ages folk in the Shire smoked various herbs, some fouler, some swee
 cout << "But all accounts agree that Tobold Hornblower of Longbottom in the Southfarthing first grew the true pipe-weed in his gardens in the days of Isengrim the Second" << Comma << endl;
 cout << "about the year 1070 of Shire-reckoning" << Period << endl;
 cout << "The best home-grown still comes from that district, especially the varieties now known as Longbottom Leaf, Old Toby, and Southern Star" << Period << endl;
-cout << "'How Old Toby came by the plant is not recorded, for to his dying day he would not tell" << Period << endl;
+cout << "How Old Toby came by the plant is not recorded, for to his dying day he would not tell" << Period << endl;
 cout << "He knew much about herbs, but he was no traveller" << Period << endl;
 cout << "It is said that in his youth he went often to Bree, though he certainly never went further from the Shire than that" << Period << endl;
 cout << "It is thus quite possible that he learned of this plant in Bree, where now, at any rate, it grows well on the south slopes of the hill" << Period << endl;
@@ -811,7 +859,7 @@ cout << "but if Bilbo defeated him, then he would do as Bilbo wished" << Colon <
 cout << "he would lead him to a way out of the tunnels" << Period << endl;
 
 cout << "Since he was lost in the dark without hope, and could neither go on nor back. Bilbo accepted the challenge; and they asked one another many riddles." << endl;
-cout << "In the end Bilbo won the game, more by luck (as it seemed) than by wits;" << endl;
+cout << "In the end Bilbo won the game, more by luck (as it seemed) than by wits" << Semicolon << endl;
 cout << "for he was stumped at last for a riddle to ask, and cried out, as his hand came upon the ring he lad picked up and forgotten:" << endl;
 cout << "What have I got in my pocket?" << endl;
 cout << "This Gollum failed to answer, though he demanded three guesses." << endl;
@@ -982,8 +1030,8 @@ cout << "At ninety he was much the same as at fifty." << endl;
 cout << "At ninety-nine they began to call him well-preserved, but unchanged would have been nearer the mark." << endl;
 cout << "There were some that shook their heads and thought this was too much of a good thing" << Semicolon << endl;
 cout << "it seemed unfair that anyone should possess (apparently) perpetual youth as well as (reputedly) inexhaustible wealth." << endl;
-cout << "'It will have to be paid for,' they said." << endl;
-cout << "'It isn't natural, and trouble will come of it!'" << endl;
+cout << Apostrophe << "It will have to be paid for" << Comma << Apostrophe << Space << "they said" << Period << endl;
+cout << Apostrophe << "It isn't natural, and trouble will come of it" << ExclamationMark << Apostrophe << endl;
 cout << "But so far trouble had not come; and as Mr. Baggins was generous with his money, most people were willing to forgive him his oddities and his good fortune." << endl;
 cout << "He remained on visiting terms with his relatives (except, of course, the Sackville-Bagginses)," << endl;
 cout << "and he had many devoted admirers among the hobbits of poor and unimportant families." << endl;
@@ -992,8 +1040,8 @@ cout << "The eldest of these, and Bilbo's favourite, was young Frodo Baggins." <
 cout << "When Bilbo was ninety-nine, he adopted Frodo as his heir, and brought him to live at Bag End;" << endl;
 cout << "and the hopes of the Sackville-Bagginses were finally dashed." << endl;
 cout << "Bilbo and Frodo happened to have the same birthday, September 22nd." << endl;
-cout << "'You had better come and live here, Frodo my lad,' said Bilbo one day;" << endl;
-cout << "'and then we can celebrate our birthday-parties comfortably together.'" << endl;
+cout << Apostrophe << "You had better come and live here, Frodo my lad" << Comma << Apostrophe << Space << "said Bilbo one day" << Semicolon << endl;
+cout << Apostrophe << "and then we can celebrate our birthday-parties comfortably together" << Period << Apostrophe << endl;
 cout << "At that time Frodo was still in his tweens, as the hobbits called the irresponsible twenties between childhood and coming of age at thirty-three." << endl;
 
 cout << "Twelve more years passed." << endl;
@@ -1108,7 +1156,6 @@ cout << "Small hobbit-children ran after the cart all through Hobbiton and right
 cout << "It had a cargo of fireworks, as they rightly guessed" << Period << endl;
 cout << "At Bilbo's front door the old man began to unload" << Colon << endl;
 cout << "there were great bundles of fireworks of all sorts and shapes, each labelled with a large red G and the elf-rune" << Period << endl;
-
 cout << "That was Gandalf's mark, of course, and the old man was Gandalf the Wizard" << Comma << endl;
 cout << "whose fame in the Shire was due mainly to his skill with fires, smokes, and lights" << Period << endl;
 cout << "His real business was far more difficult and dangerous, but the Shire-folk knew nothing about it" << Period << endl;
@@ -1123,7 +1170,6 @@ cout << Apostrophe << "Run away now" << ExclamationMark << Apostrophe << Space <
 cout << Apostrophe << "You will get plenty when the time comes" << Period << Apostrophe << endl;
 cout << "Then he disappeared inside with Bilbo" << Comma << Space << "and the door was shut" << Period << endl;
 cout << "The young hobbits stared at the door in vain for a while" << Comma << Space << "and then made off" << Comma << Space << "feeling that the day of the party would never come" << Period << endl;
-
 cout << "Inside Bag End, Bilbo and Gandalf were sitting at the open window of a small room looking out west on to the garden" << Period << endl;
 cout << "The late afternoon was bright and peaceful" << Period << endl;
 cout << "The flowers glowed red and golden" << Colon << endl;
@@ -1141,22 +1187,608 @@ cout << "I hope so" << Period << endl;
 cout << "Anyway I mean to enjoy myself on Thursday, and have my little joke" << Period << endl;
 cout << Apostrophe << "Who will laugh" << Comma << Space << "I wonder" << QuestionMark << Apostrophe << Space << "said Gandalf" << Comma << Space << "shaking his head" << Period << endl;
 cout << Apostrophe << "We shall see" << Comma << Apostrophe << Space << "said Bilbo" << Period << endl;
+cout << "The next day more carts rolled up the Hill, and still more carts" << Period << endl;
+cout << "There might have been some grumbling about 'dealing locally', but that very week orders began to pour out of Bag End for every kind of provision" << Comma << endl;
+cout << "commodity, or luxury that could be obtained in Hobbiton or Bywater or anywhere in the neighbourhood" << Period << endl;
+cout << "People became enthusiastic" << Semicolon << endl;
+cout << "and they began to tick off the days on the calendar" << Semicolon << endl;
+cout << "and they watched eagerly for the postman" << Comma << Space << "hoping for invitations" << Period << endl;
+cout << "Before long the invitations began pouring out, and the Hobbiton post-office was blocked, and the Bywater post-office was snowed under, and voluntary assistant postmen were called for" << Period << endl;
+cout << "There was a constant stream of them going up the Hill, carrying hundreds of polite variations on Thank you, I shall certainly come" << Period << endl;
+cout << "A notice appeared on the gate at Bag End" << Colon << endl;
+cout << "NO ADMITTANCE EXCEPT ON PARTY BUSINESS" << Period << endl;
+cout << "Even those who had, or pretended to have Party Business were seldom allowed inside" << Period << endl;
+cout << "Bilbo was busy: writing invitations, ticking off answers, packing up presents, and making some private preparations of his own" << Period << endl;
+cout << "From the time of Gandalf's arrival he remained hidden from view" << Period << endl;
+cout << "One morning the hobbits woke to find the large field, south of Bilbo's front door, covered with ropes and poles for tents and pavilions" << Period << endl;
+cout << "A special entrance was cut into the bank leading to the road, and wide steps and a large white gate were built there" << Period << endl;
+cout << "The three hobbit-families of Bagshot Row, adjoining the field, were intensely interested and generally envied" << Period << endl;
+cout << "Old Gaffer Gamgee stopped even pretending to work in his garden" << Period << endl;
+cout << "The tents began to go up" << Period << endl;
+cout << "There was a specially large pavilion, so big that the tree that grew in the field was right inside it" << Comma << endl;
+cout << "and stood proudly near one end, at the head of the chief table" << Period << endl;
+cout << "Lanterns were hung on all its branches" << Period << endl;
+cout << "More promising still" << Space << Left_Parent << "to the hobbits" << Apostrophe << Space << mind << Right_Parent << Colon << endl;
+cout << "an enormous open-air kitchen was erected in the north corner of the field" << Period << endl;
+cout << "A draught of cooks, from every inn and eating-house for miles around" << Comma << endl;
+cout << "arrived to supplement the dwarves and other odd folk that were quartered at Bag End" << Period << endl;
+cout << "Excitement rose to its height" << Period << endl;
+cout << "Then the weather clouded over" << Period << endl;
+cout << "That was on Wednesday the eve of the Party" << Period << endl;
+cout << "Anxiety was intense" << Period << endl;
+cout << "Then Thursday, September the 22nd, actually dawned" << Period << endl;
+cout << "The sun got up, the clouds vanished, flags were unfurled and the fun began" << Period << endl;
+cout << "Bilbo Baggins called it a party, but it was really a variety of entertainments rolled into one" << Period << endl;
+cout << "Practically everybody living near was invited" << Period << endl;
+cout << "A very few were overlooked by accident, but as they turned up all the same, that did not matter" << Period << endl;
+cout << "Many people from other parts of the Shire were also asked; and there were even a few from outside the borders" << Period << endl;
+cout << "Bilbo met the guests (and additions) at the new white gate in person" << Period << endl;
+cout << "He gave away presents to all and sundry - the latter were those who went out again by a back way and came in again by the gate" << Period << endl;
+cout << "Hobbits give presents to other people on their own birthdays" << Period << endl;
+cout << "Not very expensive ones, as a rule, and not so lavishly as on this occasion" << Semicolon << endl;
+cout << "but it was not a bad system" << Period << endl;
+cout << "Actually in Hobbiton and Bywater every day in the year it was somebody's birthday" << Comma << endl;
+cout << "so that every hobbit in those parts had a fair chance of at least one present at least once a week" << Period << endl;
+cout << "But they never got tired of them" << Period << endl;
+cout << "On this occasion the presents were unusually good" << Period << endl;
+cout << "The hobbit-children were so excited that for a while they almost forgot about eating" << Period << endl;
+cout << "There were toys the like of which they had never seen before, all beautiful and some obviously magical" << Period << endl;
+cout << "Many of them had indeed been ordered a year before, and had come all the way from the Mountain and from Dale, and were of real dwarf-make" << Period << endl;
+cout << "When every guest had been welcomed and was finally inside the gate, there were songs, dances, music, games, and, of course, food and drink" << Period << endl;
+cout << "There were three official meals: lunch, tea, and dinner" << Space << Left_Parent << "or supper" << Right_Parent << Period << endl;
+cout << "But lunch and tea were marked chiefly by the fact that at those times all the guests were sitting down and eating together" << Period << endl;
+cout << "At other times there were merely lots of people eating and drinking - continuously from elevenses until six-thirty, when the fireworks started" << Period << endl;
+cout << "The fireworks were by Gandalf" << Colon << endl;
+cout << "they were not only brought by him, but designed and made by him" << Semicolon << endl;
+cout << "and the special effects, set pieces, and flights of rockets were let off by him" << Period << endl;
+cout << "But there was also a generous distribution of squibs, crackers, backarappers, sparklers, torches, dwarf-candles, elf-fountains, goblin-barkers and thunder-claps" << Period << endl;
+cout << "They were all superb" << Period << endl;
+cout << "The art of Gandalf improved with age" << Period << endl;
+cout << "There were rockets like a flight of scintillating birds singing with sweet voices" << Period << endl;
+cout << "There were green trees with trunks of dark smoke" << Colon << endl;
+cout << "their leaves opened like a whole spring unfolding in a moment" << Comma << endl;
+cout << "and their shining branches dropped glowing flowers down upon the astonished hobbits" << Comma << endl;
+cout << "disappearing with a sweet scent just before they touched their upturned faces" << Period << endl;
+cout << "There were fountains of butterflies that flew glittering into the trees" << Semicolon << endl;
+cout << "there were pillars of coloured fires that rose and turned into eagles, or sailing ships, or a phalanx of flying swans" << Semicolon << endl;
+cout << "there was a red thunderstorm and a shower of yellow rain" << Semicolon << endl;
+cout << "there was a forest of silver spears that sprang suddenly into the air with a yell like an embattled army" << Comma << endl;
+cout << "and came down again into the Water with a hiss like a hundred hot snakes" << Period << endl;
+cout << "And there was also one last surprise, in honour of Bilbo, and it startled the hobbits exceedingly, as Gandalf intended" << Period << endl;
+cout << "The lights went out" << Period << endl;
+cout << "A great smoke went up" << Period << endl;
+cout << "It shaped itself like a mountain seen in the distance, and began to glow at the summit" << Period << endl;
+cout << "It spouted green and scarlet flames" << Period << endl;
 
-cout << "The next day more carts rolled up the Hill, and still more carts.";
-cout << "There might have been some grumbling about 'dealing locally', but that very week orders began to pour out of Bag End for every kind of provision,";
-cout << "commodity, or luxury that could be obtained in Hobbiton or Bywater or anywhere in the neighbourhood.";
-cout << "People became enthusiastic; and they began to tick off the days on the calendar; and they watched eagerly for the postman, hoping for invitations.";
-cout << "Before long the invitations began pouring out, and the Hobbiton post-office was blocked, and the Bywater post-office was snowed under, and voluntary assistant postmen were called for.";
-cout << "There was a constant stream of them going up the Hill, carrying hundreds of polite variations on Thank you, I shall certainly come.";
-cout << "A notice appeared on the gate at Bag End:";
-cout << "NO ADMITTANCE EXCEPT ON PARTY BUSINESS.";
-cout << "Even those who had, or pretended to have Party Business were seldom allowed inside.";
-cout << "Bilbo was busy: writing invitations, ticking off answers, packing up presents, and making some private preparations of his own.";
-cout << "From the time of Gandalf's arrival he remained hidden from view.";
-cout << "One morning the hobbits woke to find the large field, south of Bilbo's front door, covered with ropes and poles for tents and pavilions.";
-cout << "A special entrance was cut into the bank leading to the road, and wide steps and a large white gate were built there.";
-cout << "The three hobbit-families of Bagshot Row, adjoining the field, were intensely interested and generally envied.";
-cout << "Old Gaffer Gamgee stopped even pretending to work in his garden.";
+cout << "Out flew a red-golden dragon - not life-size, but terribly life-like" << Colon << endl;
+cout << "fire came from his jaws, his eyes glared down" << Semicolon << endl;
+cout << "there was a roar, and he whizzed three times over the heads of the crowd" << Period << endl;
+cout << "They all ducked, and many fell flat on their faces" << Period << endl;
+cout << "The dragon passed like an express train, turned a somersault, and burst over Bywater with a deafening explosion" << Period << endl;
+cout << "'That is the signal for supper!' said Bilbo" << Period << endl;
+cout << "The pain and alarm vanished at once, and the prostrate hobbits leaped to their feet" << Period << endl;
+cout << "There was a splendid supper for everyone; for everyone, that is, except those invited to the special family dinner-party" << Period << endl;
+cout << "This was held in the great pavilion with the tree" << Period << endl;
+cout << "The invitations were limited to twelve dozen" << Space << Left_Parent << "a number also called by the hobbits one Gross" << Comma << Space << "though the word was not considered proper to use of people" << Right_Parent << Semicolon << endl;
+cout << "and the guests were selected from all the families to which Bilbo and Frodo were related" << Comma << endl;
+cout << "with the addition of a few special unrelated friends" << Space << Left_Parent << "such as Gandalf" << Right_Parent << Period << endl;
+cout << "Many young hobbits were included, and present by parental permission" << Semicolon << endl;
+cout << "for hobbits were easy-going with their children in the matter of sitting up late" << Comma << endl;
+cout << "especially when there was a chance of getting them a free meal" << Period << endl;
+cout << "Bringing up young hobbits took a lot of provender" << Period << endl;
+
+cout << "There were many Bagginses and Boffins, and also many Tooks and Brandybucks" << Semicolon << endl;
+cout << "there were various Grubbs" << Space << Left_Parent << "relations of Bilbo Baggins" << Apostrophe << Space << grandmother << Right_Parent << Comma << Space << "and various Chubbs" << Space << Left_Parent << "connexions of his Took grandfather" << Right_Parent << Semicolon << endl;
+cout << "and a selection of Burrowses, Bolgers, Bracegirdles, Brockhouses, Goodbodies, Hornblowers and Proudfoots" << Period << endl;
+cout << "Some of these were only very distantly connected with Bilbo, and some of them had hardly ever been in Hobbiton before, as they lived in remote corners of the Shire" << Period << endl;
+cout << "The Sackville-Bagginses were not forgotten. Otho and his wife Lobelia were present" << Period << endl;
+cout << "They disliked Bilbo and detested Frodo, but so magnificent was the invitation card, written in golden ink, that they had felt it was impossible to refuse" << Period << endl;
+cout << "Besides, their cousin, Bilbo, had been specializing in food for many years and his table had a high reputation" << Period << endl;
+cout << "All the one hundred and forty-four guests expected a pleasant feast" << Semicolon << endl;
+cout << "though they rather dreaded the after-dinner speech of their host" << Space << Left_Parent << "an inevitable item" << Right_Parent << Period << endl;
+cout << "He was liable to drag in bits of what he called poetry; and sometimes, after a glass or two, would allude to the absurd adventures of his mysterious journey" << Period << endl;
+cout << "The guests were not disappointed: they had a very pleasant feast, in fact an engrossing entertainment" << Colon << endl;
+cout << "rich, abundant, varied, and prolonged" << Period << endl;
+cout << "The purchase of provisions fell almost to nothing throughout the district in the ensuing weeks" << Semicolon << endl;
+cout << "but as Bilbo's catering had depleted the stocks of most stores, cellars and warehouses for miles around, that did not matter much" << Period << endl;
+cout << "After the feast (more or less) came the Speech" << Period << endl;
+cout << "Most of the company were, however, now in a tolerant mood, at that delightful stage which they called" << Space << Apostrophe << "filling up the corners" << Apostrophe << Period << endl;
+cout << "They were sipping their favourite drinks, and nibbling at their favourite dainties, and their fears were forgotten" << Period << endl;
+cout << "They were prepared to listen to anything, and to cheer at every full stop" << Period << endl;
+
+cout << "My dear People, began Bilbo, rising in his place" << Period << endl;
+cout << Apostrophe << Hear << ExclamationMark << Space << Hear << ExclamationMark << Space << Hear << ExclamationMark << Apostrophe << Space << "they shouted, and kept on repeating it in chorus, seeming reluctant to follow their own advice" << Period << endl;
+cout << "Bilbo left his place and went and stood on a chair under the illuminated tree" << Period << endl;
+cout << "The light of the lanterns fell on his beaming face; the golden buttons shone on his embroidered silk waistcoat" << Period << endl;
+cout << "They could all see him standing, waving one hand in the air, the other was in his trouser-pocket" << Period << endl;
+cout << "My dear Bagginses and Boffins, he began again" << Semicolon << endl;
+cout << "and my dear Tooks and Brandybucks, and Grubbs, and Chubbs, and Burrowses, and Hornblowers, and Bolgers, Bracegirdles, Goodbodies, Brockhouses and Proudfoots" << Period << endl;
+cout << Apostrophe << "ProudFEET" << ExclamationMark << Apostrophe << Space << "shouted an elderly hobbit from the back of the pavilion" << Period << endl;
+cout << "His name, of course, was Proudfoot, and well merited; his feet were large, exceptionally furry, and both were on the table" << Period << endl;
+
+cout << "Proudfoots" << Comma << Space << "repeated Bilbo" << Period << endl;
+cout << "Also my good Sackville-Bagginses that I welcome back at last to Bag End" << Period << endl;
+cout << "Today is my one hundred and eleventh birthday" << Colon << endl;
+cout << "I am eleventy-one today" << ExclamationMark << endl;
+cout << Apostrophe << Hurray << ExclamationMark << Space << Hurray << ExclamationMark << Space << "Many Happy Returns" << ExclamationMark << Apostrophe << Space << "they shouted" << Comma << Space << "and they hammered joyously on the tables" << Period << endl;
+cout << "Bilbo was doing splendidly" << Period << endl;
+cout << "This was the sort of stuff they liked: short and obvious" << Period << endl;
+
+cout << "I hope you are all enjoying yourselves as much as I am" << Period << endl;
+cout << "Deafening cheers" << Period << endl;
+cout << "Cries of Yes" << Space << Left_Parent << "and No" << Right_Parent << Period << endl;
+cout << "Noises of trumpets and horns, pipes and flutes, and other musical instruments" << Period << endl;
+cout << "There were, as has been said, many young hobbits present. Hundreds of musical crackers had been pulled" << Period << endl;
+cout << "Most of them bore the mark DALE on them; which did not convey much to most of the hobbits, but they all agreed they were marvellous crackers" << Period << endl;
+cout << "They contained instruments, small, but of perfect make and enchanting tones" << Period << endl;
+cout << "Indeed, in one corner some of the young Tooks and Brandybucks" << Comma << endl;
+cout << "supposing Uncle Bilbo to have finished" << Space << Left_Parent << "since he had plainly said all that was necessary" << Right_Parent << Comma << endl;
+cout << "now got up an impromptu orchestra, and began a merry dance-tune" << Period << endl;
+cout << "Master Everard Took and Miss Melilot Brandybuck got on a table and with bells in their hands began to dance the Springle-ring" << Colon << endl;
+cout << "a pretty dance, but rather vigorous" << Period << endl;
+cout << "But Bilbo had not finished" << Period << endl;
+cout << "Seizing a horn from a youngster near by, he blew three loud hoots" << Period << endl;
+cout << "The noise subsided" << Period << endl;
+cout << "I shall not keep you long, he cried" << Period << endl;
+cout << "Cheers from all the assembly" << Period << endl;
+cout << "I have called you all together for a Purpose" << Period << endl;
+cout << "Something in the way that he said this made an impression" << Period << endl;
+cout << "There was almost silence, and one or two of the Tooks pricked up their ears" << Period << endl;
+
+cout << "Indeed, for Three Purposes" << ExclamationMark << endl;
+cout << "First of all, to tell you that I am immensely fond of you all" << Comma << endl;
+cout << "and that eleventy-one years is too short a time to live among such excellent and admirable hobbits" << Period << endl;
+cout << "Tremendous outburst of approval" << Period << endl;
+cout << "I don't know half of you half as well as I should like" << Semicolon << endl;
+cout << "and I like less than half of you half as well as you deserve" << Period << endl;
+cout << "This was unexpected and rather difficult" << Period << endl;
+cout << "There was some scattered clapping, but most of them were trying to work it out and see if it came to a compliment" << Period << endl;
+cout << "Secondly, to celebrate my birthday" << Period << endl;
+cout << "Cheers again" << Period << endl;
+cout << "I should say: OUR birthday" << Period << endl;
+cout << "For it is, of course, also the birthday of my heir and nephew, Frodo" << Period << endl;
+cout << "He comes of age and into his inheritance today" << Period << endl;
+
+cout << "Some perfunctory clapping by the elders" << Semicolon << endl;
+cout << "and some loud shouts of 'Frodo! Frodo! Jolly old Frodo,' from the juniors" << Period << endl;
+cout << "The Sackville-Bagginses scowled, and wondered what was meant by" << Space << Apostrophe << "coming into his inheritance" << Apostrophe << Period << endl;
+cout << "Together we score one hundred and forty-four" << Period << endl;
+cout << "Your numbers were chosen to fit this remarkable total" << Colon << endl;
+cout << "One Gross, if I may use the expression" << Period << endl;
+cout << "No cheers" << Period << endl;
+cout << "This was ridiculous" << Period << endl;
+cout << "Many of his guests, and especially the Sackville-Bagginses" << Comma << endl;
+cout << "were insulted, feeling sure they had only been asked to fill up the required number, like goods in a package" << Period << endl;
+cout << "One Gross, indeed" << ExclamationMark << endl;
+cout << "Vulgar expression" << Period << endl;
+
+cout << "It is also, if I may be allowed to refer to ancient history" << Comma << endl;
+cout << "the anniversary of my arrival by barrel at Esgaroth on the Long Lake" << Semicolon << endl;
+cout << "though the fact that it was my birthday slipped my memory on that occasion" << Period << endl;
+cout << "I was only fifty-one then, and birthdays did not seem so important" << Period << endl;
+cout << "The banquet was very splendid, however, though I had a bad cold at the time, I remember, and could only say" << Space << Apostrophe << "thag you very buch" << Apostrophe << Period << endl;
+cout << "I now repeat it more correctly" << Colon << endl;
+cout << "Thank you very much for coming to my little party" << Period << endl;
+cout << "Obstinate silence" << Period << endl;
+cout << "They all feared that a song or some poetry was now imminent; and they were getting bored" << Period << endl;
+cout << "Why couldn't he stop talking and let them drink his health" << QuestionMark << endl;
+cout << "But Bilbo did not sing or recite" << Period << endl;
+cout << "He paused for a moment" << Period << endl;
+cout << "Thirdly and finally, he said, I wish to make an ANNOUNCEMENT" << Period << endl;
+cout << "He spoke this last word so loudly and suddenly that everyone sat up who still could" << Period << endl;
+cout << "I regret to announce that - though, as I said, eleventy-one years is far too short a time to spend among you - this is the END" << Period << endl;
+cout << "I am going" << Period << endl;
+cout << "I am leaving NOW" << Period << endl;
+cout << "GOOD-BYE" << ExclamationMark << endl;
+
+cout << "He stepped down and vanished" << Period << endl;
+cout << "There was a blinding flash of light, and the guests all blinked" << Period << endl;
+cout << "When they opened their eyes Bilbo was nowhere to be seen" << Period << endl;
+cout << "One hundred and forty-four flabbergasted hobbits sat back speechless" << Period << endl;
+cout << "Old Odo Proudfoot removed his feet from the table and stamped" << Period << endl;
+cout << "Then there was a dead silence, until suddenly, after several deep breaths, every Baggins, Boffin, Took, Brandybuck, Grubb, Chubb, Burrows" << Comma << endl;
+cout << "Bolger, Bracegirdle, Brockhouse, Goodbody, Hornblower, and Proudfoot began to talk at once" << Period << endl;
+cout << "It was generally agreed that the joke was in very bad taste" << Comma << endl;
+cout << "and more food and drink were needed to cure the guests of shock and annoyance" << Period << endl;
+cout << "He's mad" << Period << endl;
+cout << "I always said so, was probably the most popular comment" << Period << endl;
+cout << "Even the Tooks (with a few exceptions) thought Bilbo's behaviour was absurd" << Period << endl;
+cout << "For the moment most of them took it for granted that his disappearance was nothing more than a ridiculous prank" << Period << endl;
+cout << "But old Rory Brandybuck was not so sure" << Period << endl;
+cout << "Neither age nor an enormous dinner had clouded his wits, and he said to his daughter-in-law" << Comma << Space << Esmeralda << Colon << endl;
+cout << "There's something fishy in this, my dear" << ExclamationMark << endl;
+cout << "I believe that mad Baggins is off again" << Period << endl;
+cout << "Silly old fool" << Period << endl;
+cout << "But why worry" << QuestionMark << endl;
+cout << "He hasn't taken the vittles with him" << Period << endl;
+cout << "He called loudly to Frodo to send the wine round again" << Period << endl;
+cout << "Frodo was the only one present who had said nothing" << Period << endl;
+cout << "For some time he had sat silent beside Bilbo's empty chair, and ignored all remarks and questions" << Period << endl;
+cout << "He had enjoyed the joke, of course, even though he had been in the know" << Period << endl;
+cout << "He had difficulty in keeping from laughter at the indignant surprise of the guests" << Period << endl;
+cout << "But at the same time he felt deeply troubled" << Colon << endl;
+cout << "he realized suddenly that he loved the old hobbit dearly" << Period << endl;
+cout << "Most of the guests went on eating and drinking and discussing Bilbo Baggins' oddities, past and present" << Semicolon << endl;
+cout << "but the Sackville-Bagginses had already departed in wrath" << Period << endl;
+cout << "Frodo did not want to have any more to do with the party" << Period << endl;
+cout << "He gave orders for more wine to be served" << Semicolon << endl;
+cout << "then he got up and drained his own glass silently to the health of Bilbo, and slipped out of the pavilion" << Period << endl;
+cout << "As for Bilbo Baggins, even while he was making his speech, he had been fingering the golden ring in his pocket" << Colon << endl;
+cout << "his magic ring that he had kept secret for so many years" << Period << endl;
+cout << "As he stepped down he slipped it on his finger, and he was never seen by any hobbit in Hobbiton again" << Period << endl;
+cout << "He walked briskly back to his hole" << Comma << endl;
+cout << "and stood for a moment listening with a smile to the din in the pavilion and to the sounds of merrymaking in other parts of the field" << Period << endl;
+cout << "Then he went in" << Period << endl;
+cout << "He took off his party clothes" << Comma << endl;
+cout << "folded up and wrapped in tissue-paper his embroidered silk waistcoat, and put it away" << Period << endl;
+cout << "Then he put on quickly some old untidy garments" << Comma << endl;
+cout << "and fastened round his waist a worn leather belt" << Period << endl;
+cout << "On it he hung a short sword in a battered black-leather scabbard" << Period << endl;
+cout << "From a locked drawer, smelling of moth-balls, he took out an old cloak and hood" << Period << endl;
+cout << "They had been locked up as if they were very precious" << Comma << endl;
+cout << "but they were so patched and weatherstained that their original colour could hardly be guessed" << Colon << endl;
+cout << "it might have been dark green" << Period << endl;
+cout << "They were rather too large for him" << Period << endl;
+cout << "He then went into his study" << Comma << endl;
+cout << "and from a large strong-box took out a bundle wrapped in old cloths, and a leather-bound manuscript" << Semicolon << endl;
+cout << "and also a large bulky envelope" << Period << endl;
+cout << "The book and bundle he stuffed into the top of a heavy bag that was standing there, already nearly full" << Period << endl;
+cout << "Into the envelope he slipped his golden ring, and its fine chain, and then sealed it, and addressed it to Frodo" << Period << endl;
+cout << "At first he put it on the mantelpiece, but suddenly he removed it and stuck it in his pocket" << Period << endl;
+cout << "At that moment the door opened and Gandalf came quickly in" << Period << endl;
+cout << Apostrophe << Hullo << ExclamationMark << Apostrophe << Space << "said Bilbo" << Period << endl;
+cout << Apostrophe << "I wondered if you would turn up" << Period << Apostrophe << endl;
+cout << Apostrophe << "I am glad to find you visible" << Comma << Apostrophe << endl;
+cout << "replied the wizard, sitting down in a chair" << Comma << endl;
+cout << "I wanted to catch you and have a few final words" << Period << endl;
+cout << "I suppose you feel that everything has gone off splendidly and according to plan" << QuestionMark << endl;
+cout << Apostrophe << Yes << Comma << Space << "I do" << Comma << Apostrophe << Space << "said Bilbo" << Period << endl;
+cout << "Though that flash was surprising" << Colon << endl;
+cout << "it quite startled me, let alone the others" << Period << endl;
+cout << "A little addition of your own" << Comma << Space << "I suppose" << QuestionMark << endl;
+cout << "It was" << Period << endl;
+cout << "You have wisely kept that ring secret all these years" << Comma << endl;
+cout << "and it seemed to me necessary to give your guests something else that would seem to explain your sudden vanishment" << Period << endl;
+cout << "And would spoil my joke" << Period << endl;
+cout << "You are an interfering old busybody" << Comma << Space << "laughed Bilbo" << Comma << endl;
+cout << Apostrophe << "but I expect you know best" << Comma << Space << "as usual" << Period << Apostrophe << endl;
+cout << "I do" << Space << Hyphen << Space << "when I know anything" << Period << endl;
+cout << "But I don't feel too sure about this whole affair" << Period << endl;
+cout << "It has now come to the final point" << Period << endl;
+cout << "You have had your joke" << Comma << Space << "and alarmed or offended most of your relations" << Comma << endl;
+cout << "and given the whole Shire something to talk about for nine days" << Comma << Space << "or ninety" << Hyphen << "nine more likely" << Period << endl;
+cout << "Are you going any further" << QuestionMark << endl;
+cout << "Yes, I am" << Period << endl;
+cout << "I feel I need a holiday, a very long holiday, as I have told you before" << Period << endl;
+cout << "Probably a permanent holiday" << Colon << endl;
+cout << "I don't expect I shall return" << Period << endl;
+cout << "In fact, I don't mean to, and I have made all arrangements" << Period << endl;
+cout << "I am old, Gandalf" << Period << endl;
+cout << "I don't look it, but I am beginning to feel it in my heart of hearts" << Period << endl;
+cout << "Well-preserved indeed! he snorted" << Period << endl;
+cout << "Why, I feel all thin, sort of stretched, if you know what I mean" << Colon << endl;
+cout << "like butter that has been scraped over too much bread" << Period << endl;
+cout << "That can't be right" << Period << endl;
+cout << "I need a change, or something" << Period << endl;
+cout << "Gandalf looked curiously and closely at him" << Period << endl;
+cout << Apostrophe << No << Comma << Space << "it does not seem right" << Comma << Apostrophe << Space << "he said thoughtfully" << Period << endl;
+cout << Apostrophe << No << Comma << Space << "after all I believe your plan is probably the best" << Period << Apostrophe << endl;
+cout << Well << Comma << Space << I << Apostrophe << ve << Space << "made up my mind" << Comma << Space << anyway << Period << endl;
+cout << "I want to see mountains again" << Comma << Space << Gandalf << Comma << Space << mountains << Comma << Space << "and then find somewhere where I can rest" << Period << endl;
+cout << "In peace and quiet" << Comma << Space << "without a lot of relatives prying around" << Comma << Space << "and a string of confounded visitors hanging on the bell" << Period << endl;
+cout << "I might find somewhere where I can finish my book" << Period << endl;
+cout << "I have thought of a nice ending for it" << Colon << endl;
+cout << "and he lived happily ever after to the end of his days" << Period << endl;
+cout << "Gandalf laughed" << Period << endl;
+cout << "I hope he will" << Period << endl;
+cout << "But nobody will read the book" << Comma << Space << "however it ends" << Period << endl;
+
+cout << "Oh, they may, in years to come" << Period << endl;
+cout << "Frodo has read some already" << Comma << Space << "as far as it has gone" << Period << endl;
+cout << "You'll keep an eye on Frodo" << Comma << Space << "won't you" << QuestionMark << endl;
+cout << Apostrophe << Yes << Comma << Space << "I will" << Space << Hyphen << Space << "two eyes" << Comma << Space << "as often as I can spare them" << Period << Apostrophe << endl;
+cout << "He would come with me" << Comma << Space << "of course" << Comma << Space << "if I asked him" << Period << endl;
+cout << "In fact he offered to once" << Comma << Space << "just before the party" << Period << endl;
+cout << "But he does not really want to" << Comma << Space << yet << Period << endl;
+cout << "I want to see the wild country again before I die" << Comma << Space << "and the Mountains" << Semicolon << endl;
+cout << "but he is still in love with the Shire" << Comma << Space << "with woods and fields and little rivers" << Period << endl;
+cout << "He ought to be comfortable here" << Period << endl;
+cout << "I am leaving everything to him" << Comma << Space << "of course" << Comma << Space << "except a few oddments" << Period << endl;
+cout << "I hope he will be happy" << Comma << Space << "when he gets used to being on his own" << Period << endl;
+cout << It << Apostrophe << s << Space << "time he was his own master now" << Period << endl;
+cout << Apostrophe << Everything << QuestionMark << Apostrophe << endl;
+cout << "said Gandalf" << Period << endl;
+cout << "The ring as well" << QuestionMark << endl;
+cout << "You agreed to that" << Comma << Space << "you remember" << Period << endl;
+cout << Apostrophe << Well << Comma << Space << er << Comma << Space << yes << Comma << Space << "I suppose so" << Comma << Apostrophe << Space << "stammered Bilbo" << Period << endl;
+cout << Apostrophe << "Where is it" << QuestionMark << Apostrophe << endl;
+cout << Apostrophe << "In an envelope" << Comma << Space << "if you must know" << Comma << Apostrophe << Space << "said Bilbo impatiently" << Period << endl;
+cout << "There on the mantelpiece" << Period << endl;
+cout << "Well, no" << ExclamationMark << endl;
+cout << "Here it is in my pocket" << ExclamationMark << endl;
+cout << "He hesitated" << Period << endl;
+cout << Apostrophe << "Isn't that odd now" << QuestionMark << Apostrophe << endl;
+cout << "he said softly to himself" << Period << endl;
+cout << "Yet after all, why not" << QuestionMark << endl;
+cout << "Why shouldn't it stay there" << QuestionMark << endl;
+cout << "Gandalf looked again very hard at Bilbo, and there was a gleam in his eyes" << Period << endl;
+cout << Apostrophe << "I think" << Comma << Space << Bilbo << Comma << Apostrophe << Space << "he said quietly" << Comma << endl;
+cout << Apostrophe << "I should leave it behind" << Period << endl;
+cout << "Don't you want to" << QuestionMark << endl;
+cout << "Well yes - and no" << Period << endl;
+cout << "Now it comes to it, I don't like parting with it at all, I may say" << Period << endl;
+cout << "And I don't really see why I should" << Period << endl;
+cout << "Why do you want me to" << QuestionMark << endl;
+cout << "he asked, and a curious change came over his voice" << Period << endl;
+cout << "It was sharp with suspicion and annoyance" << Period << endl;
+cout << "You are always badgering me about my ring" << Semicolon << endl;
+cout << "but you have never bothered me about the other things that I got on my journey" << Period << endl;
+cout << "No, but I had to badger you, said Gandalf" << Period << endl;
+cout << "I wanted the truth" << Period << endl;
+cout << "It was important" << Period << endl;
+cout << "Magic rings are - well, magical" << Semicolon << endl;
+cout << "and they are rare and curious" << Period << endl;
+cout << "I was professionally interested in your ring, you may say" << Semicolon << endl;
+cout << "and I still am" << Period << endl;
+cout << "I should like to know where it is, if you go wandering again" << Period << endl;
+cout << "Also I think you have had it quite long enough" << Period << endl;
+cout << "You won't need it any more" << Period << endl;
+cout << "Bilbo, unless I am quite mistaken" << Period << endl;
+cout << "Bilbo flushed, and there was an angry light in his eyes" << Period << endl;
+cout << "His kindly face grew hard" << Period << endl;
+cout << "Why not" << QuestionMark << endl;
+cout << "he cried" << Period << endl;
+cout << "And what business is it of yours, anyway, to know what I do with my own things" << QuestionMark << endl;
+cout << "It is my own" << Period << endl;
+cout << "I found it" << Period << endl;
+cout << "It came to me" << Period << endl;
+cout << Apostrophe << "Yes, yes" << Comma << Apostrophe << Space << "said Gandalf" << Period << endl;
+cout << Apostrophe << "But there is no need to get angry" << Period << Apostrophe << endl;
+cout << Apostrophe << "If I am it is your fault" << Comma << Apostrophe << Space << "said Bilbo" << Period << endl;
+cout << "It is mine, I tell you" << Period << endl;
+cout << "My own" << Period << endl;
+cout << "My precious" << Period << endl;
+cout << "Yes, my precious" << Period << endl;
+cout << "The wizard's face remained grave and attentive, and only a flicker in his deep eyes showed that he was startled and indeed alarmed" << Period << endl;
+cout << Apostrophe << "It has been called that before" << Comma << Apostrophe << endl;
+cout << "he said" << Comma << Space << Apostrophe << "but not by you" << Period << Apostrophe << endl;
+cout << "But I say it now" << Period << endl;
+cout << "And why not" << QuestionMark << endl;
+cout << "Even if Gollum said the same once" << Period << endl;
+cout << "It's not his now, but mine" << Period << endl;
+cout << "And I shall keep it, I say" << Period << endl;
+cout << "Gandalf stood up" << Period << endl;
+cout << "He spoke sternly" << Period << endl;
+cout << "You will be a fool if you do" << Period << endl;
+cout << "Bilbo, he said" << Period << endl;
+cout << "You make that clearer with every word you say" << Period << endl;
+cout << "It has got far too much hold on you" << Period << endl;
+cout << "Let it go" << ExclamationMark << endl;
+cout << "And then you can go yourself, and be free" << Period << endl;
+cout << Apostrophe << "I'll do as I choose and go as I please" << Comma << Apostrophe << Space << "said Bilbo obstinately" << Period << endl;
+
+cout << "Now, now, my dear hobbit" << ExclamationMark << endl;
+cout << "said Gandalf" << Period << endl;
+cout << "All your long life we have been friends, and you owe me something" << Period << endl;
+cout << "Come" << ExclamationMark << endl;
+cout << "Do as you promised" << Colon << endl;
+cout << "give it up" << ExclamationMark << endl;
+cout << Apostrophe << "Well, if you want my ring yourself, say so" << ExclamationMark << Apostrophe << Space << "cried Bilbo" << Period << endl;
+cout << "But you won't get it" << Period << endl;
+cout << "I won't give my precious away, I tell you" << Period << endl;
+cout << "His hand strayed to the hilt of his small sword" << Period << endl;
+cout << "Gandalf's eyes flashed" << Period << endl;
+cout << "It will be my turn to get angry soon, he said" << Period << endl;
+cout << "If you say that again, I shall" << Period << endl;
+cout << "Then you will see Gandalf the Grey uncloaked" << Period << endl;
+cout << "He took a step towards the hobbit, and he seemed to grow tall and menacing" << Semicolon << endl;
+cout << "his shadow filled the little room" << Period << endl;
+cout << "Bilbo backed away to the wall, breathing hard, his hand clutching at his pocket" << Period << endl;
+cout << "They stood for a while facing one another, and the air of the room tingled" << Period << endl;
+cout << "Gandalf's eyes remained bent on the hobbit" << Period << endl;
+cout << "Slowly his hands relaxed, and he began to tremble" << Period << endl;
+cout << Apostrophe << "I don't know what has come over you, Gandalf" << Comma << Apostrophe << Space << "he said" << Period << endl;
+cout << "You have never been like this before" << Period << endl;
+cout << "What is it all about" << QuestionMark << endl;
+cout << "It is mine isn't it" << QuestionMark << endl;
+cout << "I found it, and Gollum would have killed me, if I hadn't kept it" << Period << endl;
+cout << "I'm not a thief, whatever he said" << Period << endl;
+cout << Apostrophe << "I have never called you one" << Comma << Apostrophe << Space << "Gandalf answered" << Period << endl;
+cout << "And I am not one either" << Period << endl;
+cout << "I am not trying to rob you, but to help you" << Period << endl;
+cout << "I wish you would trust me, as you used" << Period << endl;
+cout << "He turned away, and the shadow passed" << Period << endl;
+cout << "He seemed to dwindle again to an old grey man, bent and troubled" << Period << endl;
+cout << "Bilbo drew his hand over his eyes" << Period << endl;
+cout << "I am sorry, he said" << Period << endl;
+cout << "But I felt so queer" << Period << endl;
+cout << "And yet it would be a relief in a way not to be bothered with it any more" << Period << endl;
+cout << "It has been so growing on my mind lately" << Period << endl;
+cout << "Sometimes I have felt it was like an eye looking at me" << Period << endl;
+cout << "And I am always wanting to put it on and disappear, don't you know" << Semicolon << endl;
+cout << "or wondering if it is safe, and pulling it out to make sure" << Period << endl;
+cout << "I tried locking it up, but I found I couldn't rest without it in my pocket" << Period << endl;
+cout << "I don't know why" << Period << endl;
+cout << "And I don't seem able to make up my mind" << Period << endl;
+cout << Apostrophe << "Then trust mine" << Comma << Apostrophe << Space << "said Gandalf" << Period << endl;
+cout << "It is quite made up" << Period << endl;
+cout << "Go away and leave it behind" << Period << endl;
+cout << "Stop possessing it" << Period << endl;
+cout << "Give it to Frodo, and I will look after him" << Period << endl;
+cout << "Bilbo stood for a moment tense and undecided" << Period << endl;
+cout << "Presently he sighed" << Period << endl;
+cout << Apostrophe << "All right" << Comma << Apostrophe << Space << "he said with an effort" << Period << endl;
+cout << "I will" << Period << endl;
+cout << "Then he shrugged his shoulders, and smiled rather ruefully" << Period << endl;
+cout << "After all that's what this party business was all about, really" << Colon << endl;
+cout << "to give away lots of birthday presents" << Comma << endl;
+cout << "and somehow make it easier to give it away at the same time" << Period << endl;
+cout << "It hasn't made it any easier in the end" << Comma << endl;
+cout << "but it would be a pity to waste all my preparations" << Period << endl;
+cout << "It would quite spoil the joke" << Period << endl;
+cout << Apostrophe << "Indeed it would take away the only point I ever saw in the affair" << Comma << Apostrophe << Space << "said Gandalf" << Period << endl;
+cout << "Very well, said Bilbo, it goes to Frodo with all the rest" << Period << endl;
+cout << "He drew a deep breath" << Period << endl;
+cout << "And now I really must be starting, or somebody else will catch me" << Period << endl;
+cout << "I have said good-bye, and I couldn't bear to do it all over again" << Period << endl;
+cout << "He picked up his bag and moved to the door" << Period << endl;
+cout << Apostrophe << "You have still got the ring in your pocket" << Comma << Apostrophe << Space << "said the wizard" << Period << endl;
+cout << Apostrophe << "Well, so I have" << ExclamationMark << Apostrophe << endl;
+cout << "cried Bilbo" << Period << endl;
+cout << "And my will and all the other documents too" << Period << endl;
+cout << "You had better take it and deliver it for me" << Period << endl;
+cout << "That will be safest" << Period << endl;
+cout << Apostrophe << "No, don't give the ring to me" << Comma << Apostrophe << Space << "said Gandalf" << Period << endl;
+cout << "Put it on the mantelpiece" << Period << endl;
+cout << "It will be safe enough there, till Frodo comes" << Period << endl;
+cout << "I shall wait for him" << Period << endl;
+cout << "Bilbo took out the envelope" << Comma << endl;
+cout << "but just as he was about to set it by the clock" << Comma << endl;
+cout << "his hand jerked back, and the packet fell on the floor" << Period << endl;
+cout << "Before he could pick it up, the wizard stooped and seized it and set it in its place" << Period << endl;
+cout << "A spasm of anger passed swiftly over the hobbit's face again" << Period << endl;
+cout << "Suddenly it gave way to a look of relief and a laugh" << Period << endl;
+cout << Apostrophe << "Well" << Comma << Space << "that's that" << Comma << Apostrophe << Space << "he said" << Period << endl;
+cout << Apostrophe << "Now I'm off" << ExclamationMark << Apostrophe << endl;
+cout << "They went out into the hall" << Period << endl;
+cout << "Bilbo chose his favourite stick from the stand" << Semicolon << endl;
+cout << "then he whistled" << Period << endl;
+cout << "Three dwarves came out of different rooms where they had been busy" << Period << endl;
+cout << Apostrophe << "Is everything ready" << QuestionMark << Apostrophe << endl;
+cout << "asked Bilbo" << Period << endl;
+cout << Apostrophe << "Everything packed and labelled" << QuestionMark << Apostrophe << endl;
+cout << Apostrophe << Everything << Comma << Apostrophe << Space << "they answered" << Period << endl;
+cout << Apostrophe << Well << Comma << Space << "let's start then" << ExclamationMark << Apostrophe << endl;
+cout << "He stepped out of the front-door" << Period << endl;
+
+cout << "It was a fine night, and the black sky was dotted with stars" << Period << endl;
+cout << "He looked up, sniffing the air" << Period << endl;
+cout << "What fun" << ExclamationMark << endl;
+cout << "What fun to be off again, off on the Road with dwarves" << ExclamationMark << endl;
+cout << "This is what I have really been longing for, for years" << ExclamationMark << endl;
+cout << "Good-bye" << ExclamationMark << endl;
+cout << "he said, looking at his old home and bowing to the door" << Period << endl;
+cout << "Good-bye, Gandalf" << ExclamationMark << endl;
+cout << "Good-bye, for the present, Bilbo" << Period << endl;
+cout << "Take care of yourself" << ExclamationMark << endl;
+cout << "You are old enough, and perhaps wise enough" << Period << endl;
+
+cout << "Take care" << ExclamationMark << endl;
+cout << "I don't care" << Period << endl;
+cout << "Don't you worry about me" << ExclamationMark << endl;
+cout << "I am as happy now as I have ever been, and that is saying a great deal" << Period << endl;
+cout << "But the time has come" << Period << endl;
+cout << "I am being swept off my feet at last" << Comma << endl;
+cout << "he added, and then in a low voice" << Comma << endl;
+cout << "as if to himself, he sang softly in the dark" << Colon << endl;
+
+cout << "The Road goes ever on and on" << Period << endl;
+cout << "Down from the door where it began" << Period << endl;
+cout << "Now far ahead the Road has gone" << Comma << endl;
+cout << "And I must follow, if I can" << Comma << endl;
+cout << "Pursuing it with eager feet" << Comma << endl;
+cout << "Until it joins some larger way" << Period << endl;
+cout << "Where many paths and errands meet" << Period << endl;
+cout << "And whither then" << QuestionMark << endl;
+cout << "I cannot say" << Period << endl;
+
+cout << "He paused, silent for a moment" << Period << endl;
+cout << "Then without another word he turned away from the lights and voices in the fields and tents" << Comma << endl;
+cout << "and followed by his three companions went round into his garden, and trotted down the long sloping path" << Period << endl;
+cout << "He jumped over a low place in the hedge at the bottom" << Comma << endl;
+cout << "and took to the meadows, passing into the night like a rustle of wind in the grass" << Period << endl;
+cout << "Gandalf remained for a while staring after him into the darkness" << Period << endl;
+cout << Apostrophe << "Goodbye, my dear Bilbo - until our next meeting" << ExclamationMark << Apostrophe << endl;
+cout << "he said softly and went back indoors" << Period << endl;
+cout << "Frodo came in soon afterwards, and found him sitting in the dark, deep in thought" << Period << endl;
+cout << Apostrophe << "Has he gone" << QuestionMark << Apostrophe << Space << "he asked" << Period << endl;
+cout << Apostrophe << Yes << Comma << Apostrophe << Space << "answered Gandalf" << Comma << endl;
+cout << Apostrophe << "he has gone at last" << Period << Apostrophe << endl;
+
+cout << "I wish" << Space << Hyphen << Space << "I mean, I hoped until this evening that it was only a joke, said Frodo" << Period << endl;
+cout << "But I knew in my heart that he really meant to go" << Period << endl;
+cout << "He always used to joke about serious things" << Period << endl;
+cout << "I wish I had come back sooner, just to see him off" << Period << endl;
+cout << "I think really he preferred slipping off quietly in the end, said Gandalf" << Period << endl;
+cout << "Don't be too troubled" << Period << endl;
+cout << "He'll be all right" << Space << Hyphen << Space << now << Period << endl;
+cout << "He left a packet for you" << Period << endl;
+cout << "There it is" << ExclamationMark << endl;
+cout << "Frodo took the envelope from the mantelpiece, and glanced at it, but did not open it" << Period << endl;
+cout << "You'll find his will and all the other documents in there, I think, said the wizard" << Period << endl;
+cout << "You are the master of Bag End now" << Period << endl;
+cout << "And also, I fancy, you'll find a golden ring" << Period << endl;
+cout << "'The ring!' exclaimed Frodo" << Period << endl;
+cout << "Has he left me that" << QuestionMark << endl;
+cout << "I wonder why" << Period << endl;
+cout << "Still, it may be useful" << Period << endl;
+cout << Apostrophe << "It may, and it may not" << Comma << Apostrophe << Space << "said Gandalf" << Period << endl;
+cout << "I should not make use of it, if I were you" << Period << endl;
+cout << "But keep it secret, and keep it safe" << ExclamationMark << endl;
+cout << "Now I am going to bed" << Period << endl;
+cout << "As master of Bag End Frodo felt it his painful duty to say good-bye to the guests" << Period << endl;
+
+cout << "Rumours of strange events had by now spread all over the field" << Comma << endl;
+cout << "but Frodo would only say no doubt everything will be cleared up in the morning" << Period << endl;
+cout << "About midnight carriages came for the important folk" << Period << endl;
+cout << "One by one they rolled away, filled with full but very unsatisfied hobbits" << Period << endl;
+cout << "Gardeners came by arrangement, and removed in wheel-barrows those that had inadvertently remained behind" << Period << endl;
+cout << "Night slowly passed" << Period << endl;
+cout << "The sun rose" << Period << endl;
+cout << "The hobbits rose rather later" << Period << endl;
+cout << "Morning went on" << Period << endl;
+
+cout << "People came and began (by orders) to clear away the pavilions and the tables and the chairs" << Comma << endl;
+cout << "and the spoons and knives and bottles and plates, and the lanterns, and the flowering shrubs in boxes" << Comma << endl;
+cout << "and the crumbs and cracker-paper, the forgotten bags and gloves and handkerchiefs" << Comma << endl;
+cout << "and the uneaten food" << Space << Left_Parent << "a very small item" << Right_Parent << Period << endl;
+cout << "Then a number of other people came" << Space << Left_Parent << "without orders" << Right_Parent << Colon << endl;
+
+cout << "Bagginses, and Boffins, and Bolgers, and Tooks, and other guests that lived or were staying near.";
+cout << "By mid-day, when even the best-fed were out and about again, there was a large crowd at Bag End, uninvited but not unexpected.";
+cout << "Frodo was waiting on the step, smiling, but looking rather tired and worried.";
+cout << "He welcomed all the callers, but he had not much more to say than before.";
+cout << "His reply to all inquiries was simply this:";
+cout << "Mr. Bilbo Baggins has gone away;";
+cout << "as far as I know, for good.";
+cout << "Some of the visitors he invited to come inside, as Bilbo had left 'messages' for them.";
+cout << "Inside in the hall there was piled a large assortment of packages and parcels and small articles of furniture.";
+cout << "On every item there was a label tied.";
+cout << "There were several labels of this sort:";
+cout << "For ADELARD TOOK, for his VERY OWN, from Bilbo, on an umbrella.";
+cout << "Adelard had carried off many unlabelled ones.";
+
+cout << "For DORA BAGGINS in memory of a LONG correspondence, with love from Bilbo, on a large waste-paper basket.";
+cout << "Dora was Drogo's sister and the eldest surviving female relative of Bilbo and Frodo;";
+cout << "she was ninety-nine, and had written reams of good advice for more than half a century.";
+cout << "For MILO BURROWS, hoping it will be useful, from B.B., on a gold pen and ink-bottle.";
+cout << "Milo never answered letters.";
+cout << "For ANGELICA'S use, from Uncle Bilbo, on a round convex mirror.";
+cout << "She was a young Baggins, and too obviously considered her face shapely.";
+cout << "For the collection of HUGO BRACEGIRDLE, from a contributor, on an (empty) book-case.";
+cout << "Hugo was a great borrower of books, and worse than usual at returning them.";
+cout << "For LOBELIA SACKVILLE-BAGGINS, as a PRESENT, on a case of silver spoons.";
+cout << "Bilbo believed that she had acquired a good many of his spoons, while he was away on his former journey.";
+cout << "Lobelia knew that quite well.";
+
+cout << "When she arrived later in the day, she took the point at once, but she also took the spoons.";
+cout << "This is only a small selection of the assembled presents.";
+cout << "Bilbo's residence had got rather cluttered up with things in the course of his long life.";
+cout << "It was a tendency of hobbit-holes to get cluttered up:";
+cout << "for which the custom of giving so many birthday-presents was largely responsible.";
+cout << "Not, of course, that the birthday-presents were always new,";
+cout << "there were one or two old mathoms of forgotten uses that had circulated all around the district;";
+cout << "but Bilbo had usually given new presents, and kept those that he received.";
+cout << "The old hole was now being cleared a little" << Period << endl;
+
+
+
+
+
+
+
+
+
 
 
 
@@ -1179,55 +1811,82 @@ cout << "Old Gaffer Gamgee stopped even pretending to work in his garden.";
 /*
 
 
-The tents began to go up. There was a specially large pavilion, so big that the tree that grew in the field was right inside it, and stood proudly near one end, at the head of the chief table. Lanterns were hung on all its branches. More promising still (to the hobbits' mind): an enormous open-air kitchen was erected in the north corner of the field. A draught of cooks, from every inn and eating-house for miles around, arrived to supplement the dwarves and other odd folk that were quartered at Bag End. Excitement rose to its height.
-Then the weather clouded over. That was on Wednesday the eve of the Party. Anxiety was intense. Then Thursday, September the 22nd, actually dawned. The sun got up, the clouds vanished, flags were unfurled and the fun began.
-Bilbo Baggins called it a party, but it was really a variety of entertainments rolled into one. Practically everybody living near was invited. A very few were overlooked by accident, but as they turned up all the same, that did not matter. Many people from other parts of the Shire were also asked; and there were even a few from outside the borders. Bilbo met the guests (and additions) at the new white gate in person. He gave away presents to all and sundry – the latter were those who went out again by a back way and came in again by the gate. Hobbits give presents to other people on their own birthdays. Not very expensive ones, as a rule, and not so lavishly as on this occasion; but it was not a bad system. Actually in Hobbiton and Bywater every day in the year it was somebody's birthday, so that every hobbit in those parts had a fair chance of at least one present at least once a week. But they never got tired of them.
-On this occasion the presents were unusually good. The hobbit-children were so excited that for a while they almost forgot about eating. There were toys the like of which they had never seen before, all beautiful and some obviously magical. Many of them had indeed been ordered a year before, and had come all the way from the Mountain and from Dale, and were of real dwarf-make.
-When every guest had been welcomed and was finally inside the gate, there were songs, dances, music, games, and, of course, food and drink. There were three official meals: lunch, tea, and dinner (or supper). But lunch and tea were marked chiefly by the fact that at those times all the guests were sitting down and eating together. At other times there were merely lots of people eating and drinking – continuously from elevenses until six-thirty, when the fireworks started.
-The fireworks were by Gandalf: they were not only brought by him, but designed and made by him; and the special effects, set pieces, and flights of rockets were let off by him. But there was also a generous distribution of squibs, crackers, backarappers, sparklers, torches, dwarf-candles, elf-fountains, goblin-barkers and thunder-claps. They were all superb. The art of Gandalf improved with age.
-There were rockets like a flight of scintillating birds singing with sweet voices. There were green trees with trunks of dark smoke: their leaves opened like a whole spring unfolding in a moment, and their shining branches dropped glowing flowers down upon the astonished hobbits, disappearing with a sweet scent just before they touched their upturned faces. There were fountains of butterflies that flew glittering into the trees; there were pillars of coloured fires that rose and turned into eagles, or sailing ships, or a phalanx of flying swans; there was a red thunderstorm and a shower of yellow rain; there was a forest of silver spears that sprang suddenly into the air with a yell like an embattled army, and came down again into the Water with a hiss like a hundred hot snakes. And there was also one last surprise, in honour of Bilbo, and it startled the hobbits exceedingly, as Gandalf intended. The lights went out. A great smoke went up. It shaped itself like a mountain seen in the distance, and began to glow at the summit. It spouted green and scarlet flames. Out flew a red-golden dragon – not life-size, but terribly life-like: fire came from his jaws, his eyes glared down; there was a roar, and he whizzed three times over the heads of the crowd. They all ducked, and many fell flat on their faces. The dragon passed like an express train, turned a somersault, and burst over Bywater with a deafening explosion.
-'That is the signal for supper!' said Bilbo. The pain and alarm vanished at once, and the prostrate hobbits leaped to their feet. There was a splendid supper for everyone; for everyone, that is, except those invited to the special family dinner-party. This was held in the great pavilion with the tree. The invitations were limited to twelve dozen (a number also called by the hobbits one Gross, though the word was not considered proper to use of people); and the guests were selected from all the families to which Bilbo and Frodo were related, with the addition of a few special unrelated friends (such as Gandalf). Many young hobbits were included, and present by parental permission; for hobbits were easy-going with their children in the matter of sitting up late, especially when there was a chance of getting them a free meal. Bringing up young hobbits took a lot of provender.
-There were many Bagginses and Boffins, and also many Tooks and Brandybucks; there were various Grubbs (relations of Bilbo Baggins' grandmother), and various Chubbs (connexions of his Took grandfather); and a selection of Burrowses, Bolgers, Bracegirdles, Brockhouses, Goodbodies, Hornblowers and Proudfoots. Some of these were only very distantly connected with Bilbo, and some of them had hardly ever been in Hobbiton before, as they lived in remote corners of the Shire. The Sackville-Bagginses were not forgotten. Otho and his wife Lobelia were present. They disliked Bilbo and detested Frodo, but so magnificent was the invitation card, written in golden ink, that they had felt it was impossible to refuse. Besides, their cousin, Bilbo, had been specializing in food for many years and his table had a high reputation.
-All the one hundred and forty-four guests expected a pleasant feast; though they rather dreaded the after-dinner speech of their host (an inevitable item). He was liable to drag in bits of what he called poetry; and sometimes, after a glass or two, would allude to the absurd adventures of his mysterious journey. The guests were not disappointed: they had a very pleasant feast, in fact an engrossing entertainment: rich, abundant, varied, and prolonged. The purchase of provisions fell almost to nothing throughout the district in the ensuing weeks; but as Bilbo's catering had depleted the stocks of most stores, cellars and warehouses for miles around, that did not matter much.
-After the feast (more or less) came the Speech. Most of the company were, however, now in a tolerant mood, at that delightful stage which they called 'filling up the corners'. They were sipping their favourite drinks, and nibbling at their favourite dainties, and their fears were forgotten. They were prepared to listen to anything, and to cheer at every full stop.
-My dear People, began Bilbo, rising in his place. 'Hear! Hear! Hear!' they shouted, and kept on repeating it in chorus, seeming reluctant to follow their own advice. Bilbo left his place and went and stood on a chair under the illuminated tree. The light of the lanterns fell on his beaming face; the golden buttons shone on his embroidered silk waistcoat. They could all see him standing, waving one hand in the air, the other was in his trouser-pocket.
-My dear Bagginses and Boffins, he began again; and my dear Tooks and Brandybucks, and Grubbs, and Chubbs, and Burrowses, and Hornblowers, and Bolgers, Bracegirdles, Goodbodies, Brockhouses and Proudfoots. 'ProudFEET!' shouted an elderly hobbit from the back of the pavilion. His name, of course, was Proudfoot, and well merited; his feet were large, exceptionally furry, and both were on the table.
-Proudfoots, repeated Bilbo. Also my good Sackville-Bagginses that I welcome back at last to Bag End. Today is my one hundred and eleventh birthday: I am eleventy-one today! 'Hurray! Hurray! Many Happy Returns!' they shouted, and they hammered joyously on the tables. Bilbo was doing splendidly. This was the sort of stuff they liked: short and obvious.
-I hope you are all enjoying yourselves as much as I am. Deafening cheers. Cries of Yes (and No). Noises of trumpets and horns, pipes and flutes, and other musical instruments. There were, as has been said, many young hobbits present. Hundreds of musical crackers had been pulled. Most of them bore the mark DALE on them; which did not convey much to most of the hobbits, but they all agreed they were marvellous crackers. They contained instruments, small, but of perfect make and enchanting tones. Indeed, in one corner some of the young Tooks and Brandybucks, supposing Uncle Bilbo to have finished (since he had plainly said all that was necessary), now got up an impromptu orchestra, and began a merry dance-tune. Master Everard Took and Miss Melilot Brandybuck got on a table and with bells in their hands began to dance the Springle-ring: a pretty dance, but rather vigorous.
-But Bilbo had not finished. Seizing a horn from a youngster near by, he blew three loud hoots. The noise subsided. I shall not keep you long, he cried. Cheers from all the assembly. I have called you all together for a Purpose. Something in the way that he said this made an impression. There was almost silence, and one or two of the Tooks pricked up their ears.
-Indeed, for Three Purposes! First of all, to tell you that I am immensely fond of you all, and that eleventy-one years is too short a time to live among such excellent and admirable hobbits. Tremendous outburst of approval.
-I don't know half of you half as well as I should like; and I like less than half of you half as well as you deserve. This was unexpected and rather difficult. There was some scattered clapping, but most of them were trying to work it out and see if it came to a compliment.
-Secondly, to celebrate my birthday. Cheers again. I should say: OUR birthday. For it is, of course, also the birthday of my heir and nephew, Frodo. He comes of age and into his inheritance today. Some perfunctory clapping by the elders; and some loud shouts of 'Frodo! Frodo! Jolly old Frodo,' from the juniors. The Sackville-Bagginses scowled, and wondered what was meant by 'coming into his inheritance'. Together we score one hundred and forty-four. Your numbers were chosen to fit this remarkable total: One Gross, if I may use the expression. No cheers. This was ridiculous. Many of his guests, and especially the Sackville-Bagginses, were insulted, feeling sure they had only been asked to fill up the required number, like goods in a package. 'One Gross, indeed! Vulgar expression.'
-It is also, if I may be allowed to refer to ancient history, the anniversary of my arrival by barrel at Esgaroth on the Long Lake; though the fact that it was my birthday slipped my memory on that occasion. I was only fifty-one then, and birthdays did not seem so important. The banquet was very splendid, however, though I had a bad cold at the time, I remember, and could only say 'thag you very buch'. I now repeat it more correctly: Thank you very much for coming to my little party. Obstinate silence. They all feared that a song or some poetry was now imminent; and they were getting bored. Why couldn't he stop talking and let them drink his health? But Bilbo did not sing or recite. He paused for a moment.
-Thirdly and finally, he said, I wish to make an ANNOUNCEMENT. He spoke this last word so loudly and suddenly that everyone sat up who still could. I regret to announce that – though, as I said, eleventy-one years is far too short a time to spend among you – this is the END. I am going. I am leaving NOW. GOOD-BYE!
-He stepped down and vanished. There was a blinding flash of light, and the guests all blinked. When they opened their eyes Bilbo was nowhere to be seen. One hundred and forty-four flabbergasted hobbits sat back speechless. Old Odo Proudfoot removed his feet from the table and stamped. Then there was a dead silence, until suddenly, after several deep breaths, every Baggins, Boffin, Took, Brandybuck, Grubb, Chubb, Burrows, Bolger, Bracegirdle, Brockhouse, Goodbody, Hornblower, and Proudfoot began to talk at once.
-It was generally agreed that the joke was in very bad taste, and more food and drink were needed to cure the guests of shock and annoyance. 'He's mad. I always said so,' was probably the most popular comment. Even the Tooks (with a few exceptions) thought Bilbo's behaviour was absurd. For the moment most of them took it for granted that his disappearance was nothing more than a ridiculous prank.
-But old Rory Brandybuck was not so sure. Neither age nor an enormous dinner had clouded his wits, and he said to his daughter-in-law, Esmeralda: 'There's something fishy in this, my dear! I believe that mad Baggins is off again. Silly old fool. But why worry? He hasn't taken the vittles with him.' He called loudly to Frodo to send the wine round again.
-Frodo was the only one present who had said nothing. For some time he had sat silent beside Bilbo's empty chair, and ignored all remarks and questions. He had enjoyed the joke, of course, even though he had been in the know. He had difficulty in keeping from laughter at the indignant surprise of the guests. But at the same time he felt deeply troubled: he realized suddenly that he loved the old hobbit dearly. Most of the guests went on eating and drinking and discussing Bilbo Baggins' oddities, past and present; but the Sackville-Bagginses had already departed in wrath. Frodo did not want to have any more to do with the party. He gave orders for more wine to be served; then he got up and drained his own glass silently to the health of Bilbo, and slipped out of the pavilion.
-As for Bilbo Baggins, even while he was making his speech, he had been fingering the golden ring in his pocket: his magic ring that he had kept secret for so many years. As he stepped down he slipped it on his finger, and he was never seen by any hobbit in Hobbiton again.
-He walked briskly back to his hole, and stood for a moment listening with a smile to the din in the pavilion and to the sounds of merrymaking in other parts of the field. Then he went in. He took off his party clothes, folded up and wrapped in tissue-paper his embroidered silk waistcoat, and put it away. Then he put on quickly some old untidy garments, and fastened round his waist a worn leather belt. On it he hung a short sword in a battered black-leather scabbard. From a locked drawer, smelling of moth-balls, he took out an old cloak and hood. They had been locked up as if they were very precious, but they were so patched and weatherstained that their original colour could hardly be guessed: it might have been dark green. They were rather too large for him. He then went into his study, and from a large strong-box took out a bundle wrapped in old cloths, and a leather-bound manuscript; and also a large bulky envelope. The book and bundle he stuffed into the top of a heavy bag that was standing there, already nearly full. Into the envelope he slipped his golden ring, and its fine chain, and then sealed it, and addressed it to Frodo. At first he put it on the mantelpiece, but suddenly he removed it and stuck it in his pocket. At that moment the door opened and Gandalf came quickly in.
-'Hullo!' said Bilbo. 'I wondered if you would turn up.'
+Every one of the various parting gifts had labels, written out personally by Bilbo, and several had some point, or some joke.
+But, of course, most of the things were given where they would be wanted and welcome.
+The poorer hobbits, and especially those of Bagshot Row, did very well.
+Old Gaffer Gamgee got two sacks of potatoes, a new spade, a woollen waistcoat, and a bottle of ointment for creaking joints.
+Old Rory Brandybuck, in return for much hospitality, got a dozen bottles of Old Winyards:
+a strong red wine from the Southfarthing, and now quite mature, as it had been laid down by Bilbo's father.
+Rory quite forgave Bilbo, and voted him a capital fellow after the first bottle.
+There was plenty of everything left for Frodo.
+And, of course, all the chief treasures, as well as the books, pictures, and more than enough furniture, were left in his possession.
+There was, however, no sign nor mention of money or jewellery:
+not a penny-piece or a glass bead was given away.
+Frodo had a very trying time that afternoon.
+A false rumour that the whole household was being distributed free spread like wildfire;
+and before long the place was packed with people who had no business there, but could not be kept out.
+Labels got torn off and mixed, and quarrels broke out.
+Some people tried to do swaps and deals in the hall;
+and others tried to make off with minor items not addressed to them, or with anything that seemed unwanted or unwatched.
+The road to the gate was blocked with barrows and handcarts.
+In the middle of the commotion the Sackville-Bagginses arrived.
+Frodo had retired for a while and left his friend Merry Brandybuck to keep an eye on things.
+When Otho loudly demanded to see Frodo, Merry bowed politely.
+'He is indisposed,' he said. 'He is resting.'
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+'Hiding, you mean,' said Lobelia. 'Anyway we want to see him and we mean to see him. Just go and tell him so!'
+Merry left them a long while in the hall, and they had time to discover their parting gift of spoons. It did not improve their tempers. Eventually they were shown into the study. Frodo was sitting at a table with a lot of papers in front of him. He looked indisposed – to see Sackville-Bagginses at any rate; and he stood up, fidgeting with something in his pocket. But he spoke quite politely.
+The Sackville-Bagginses were rather offensive. They began by offering him bad bargain-prices (as between friends) for various valuable and unlabelled things. When Frodo replied that only the things specially directed by Bilbo were being given away, they said the whole affair was very fishy.
+'Only one thing is clear to me,' said Otho, 'and that is that you are doing exceedingly well out of it. I insist on seeing the will.'
+Otho would have been Bilbo's heir, but for the adoption of Frodo. He read the will carefully and snorted. It was, unfortunately, very clear and correct (according to the legal customs of hobbits, which demand among other things seven signatures of witnesses in red ink).
+'Foiled again!' he said to his wife. 'And after waiting sixty years. Spoons? Fiddlesticks!' He snapped his fingers under Frodo's nose and slumped off. But Lobelia was not so easily got rid of. A little later Frodo came out of the study to see how things were going on and found her still about the place, investigating nooks and comers and tapping the floors. He escorted her firmly off the premises, after he had relieved her of several small (but rather valuable) articles that had somehow fallen inside her umbrella. Her face looked as if she was in the throes of thinking out a really crushing parting remark; but all she found to say, turning round on the step, was:
+'You'll live to regret it, young fellow! Why didn't you go too? You don't belong here; you're no Baggins – you – you're a Brandybuck!'
+'Did you hear that, Merry? That was an insult, if you like,' said Frodo as he shut the door on her.
+'It was a compliment,' said Merry Brandybuck, 'and so, of course, not true.'
 */
-cout << "Exit" << QuestionMark << endl;
+
+cout << Exit_Variable_Text << QuestionMark << endl;
 cin >> Exit_Variable;
 if (Exit_Variable >= 0) {
+grandmother = "";
+government = "";
+APPENDICES = "";
+Kilobytes = "";
+colonists = "";
+CONTENTS = "";
+FOREWORD = "";
+PROLOGUE = "";
+precious = "";
+Chapter = "";
+TOLKIEN = "";
+INDEXES = "";
+Tolkien = "";
+Strider = "";
+nephew = "";
+roots = "";
+Exit_Variable_Text = "";
+mind = "";
+Part = "";
+weed = "";
+Yes = "";
+Ah = "";
+by = "";
+J = "";
+R = "";
+F = "";
+Period = "";
+Colon = "";
+Space = "";
+Hyphen = "";
+Left_Parent = "";
+Right_Parent = "";
+Forward_Slash = "";
+Comma = "";
+QuestionMark = "";
+Semicolon = "";
+Apostrophe = "";
+ExclamationMark = "";
+s = "";
+fireworks = "";
 return 0; } else {
-return 0; }
-}
+return 0; } }
