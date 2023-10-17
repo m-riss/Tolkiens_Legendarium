@@ -26,13 +26,16 @@ int Number_of_kilobytes_binary = 0;
 int Number_of_kilobytes_metric = 0;
 int Number_of_bytes_per_binary_kilobyte = 0;
 int Number_of_metric_kilobytes = 0;
+int Year_1070 = 0;
+int Twenty_Two = 0;
+int Year_Thirteen_Forty_Two = 0;
 bool Read_Tolkiens_Legendarium = 0;
-
 
 string J = "";
 string R = "";
 string F = "";
 string s = "";
+string S = "";
 string Tolkien = "";
 string by = "";
 string TOLKIEN = "";
@@ -95,6 +98,8 @@ string unfortunately = "";
 string Spoons = "";
 string Fiddlesticks = "";
 string Hiding = "";
+string This = "";
+string nd = "";
 
 unfortunately = "unfortunately";
 Fiddlesticks = "Fiddlesticks";
@@ -125,6 +130,7 @@ Hurray = "Hurray";
 Bilbo = "Bilbo";
 roots = "roots";
 Hullo  = "Hullo";
+This = "This";
 GOOD = "GOOD";
 Exit_Variable_Text = "Exit";
 Hear  = "Hear";
@@ -143,10 +149,12 @@ by = "by";
 No = "No";
 ve = "ve";
 It = "It";
+nd = "nd";
 J = "J";
 R = "R";
 F = "F";
 s = "s";
+S = "S";
 I = "I";
 Period = ".";
 Colon = ":";
@@ -176,6 +184,9 @@ Nine = 9;
 Ten = 10;
 Eleven = 11;
 Twelve = 12;
+Twenty_Two = 22;
+Year_1070 = 1070;
+Year_Thirteen_Forty_Two = 1342;
 
 /*
 cout << "How Many Bytes is the Assembly Output Without Any Optimizations" << QuestionMark << endl;
@@ -768,11 +779,11 @@ cout << "A great deal of mystery surrounds the origin of this peculiar custom, o
 cout << "All that could be discovered about it in antiquity was put together by Meriadoc Brandybuck" << Space << Left_Parent << "later Master of Buckland" << Right_Parent << Comma << endl;
 cout << "and since he and the tobacco of the Southfarthing play a part in the history that follows" << Comma << endl;
 cout << "his remarks in the introduction to his Herblore of the Shire may be quoted" << Period << endl;
-cout << "'This,' he says, 'is the one art that we can certainly claim to be our own invention" << Period << endl;
+cout << Apostrophe << This << Comma << Apostrophe << Space << "he says, is the one art that we can certainly claim to be our own invention" << Period << endl;
 cout << "When Hobbits first began to smoke is not known, all the legends and family histories take it for granted" << Semicolon << endl;
 cout << "for ages folk in the Shire smoked various herbs, some fouler, some sweeter" << Period << endl;
 cout << "But all accounts agree that Tobold Hornblower of Longbottom in the Southfarthing first grew the true pipe-weed in his gardens in the days of Isengrim the Second" << Comma << endl;
-cout << "about the year 1070 of Shire-reckoning" << Period << endl;
+cout << "about the year" << Space << Year_1070 << Space << "of Shire-reckoning" << Period << endl;
 cout << "The best home-grown still comes from that district, especially the varieties now known as Longbottom Leaf, Old Toby, and Southern Star" << Period << endl;
 cout << "How Old Toby came by the plant is not recorded, for to his dying day he would not tell" << Period << endl;
 cout << "He knew much about herbs, but he was no traveller" << Period << endl;
@@ -784,7 +795,7 @@ cout << "but in this case their claim is, I think, likely to be true" << Period 
 cout << "And certainly it was from Bree that the art of smoking the genuine weed spread in the recent centuries among Dwarves and such other folk" << Comma << endl;
 cout << "Rangers, Wizards, or wanderers, as still passed to and fro through that ancient road-meeting" << Period << endl;
 cout << "The home and centre of the an is thus to be found in the old inn of Bree, The Prancing Pony, that has been kept by the family of Butterbur from time beyond record" << Period << endl;
-cout << "'All the same, observations that I have made on my own many journeys south have convinced me that the weed itself is not native to our parts of the world" << Comma << endl;
+cout << "All the same, observations that I have made on my own many journeys south have convinced me that the weed itself is not native to our parts of the world" << Comma << endl;
 cout << "but came northward from the lower Anduin, whither it was, I suspect, originally brought over Sea by the Men of Westernesse" << Period << endl;
 cout << "It grows abundantly in Gondor, and there is richer and larger than in the North, where it is never found wild, and flourishes only in warm sheltered places like Longbottom" << Period << endl;
 cout << "The Men of Gondor call it sweet galenas, and esteem it only for the fragrance of its flowers" << Period << endl;
@@ -866,14 +877,14 @@ cout << "So to gain time Gollum challenged Bilbo to the Riddle-game, saying that
 cout << "but if Bilbo defeated him, then he would do as Bilbo wished" << Colon << endl;
 cout << "he would lead him to a way out of the tunnels" << Period << endl;
 
-cout << "Since he was lost in the dark without hope, and could neither go on nor back. Bilbo accepted the challenge; and they asked one another many riddles." << endl;
+cout << "Since he was lost in the dark without hope, and could neither go on nor back. Bilbo accepted the challenge; and they asked one another many riddles" << Period << endl;
 cout << "In the end Bilbo won the game, more by luck (as it seemed) than by wits" << Semicolon << endl;
-cout << "for he was stumped at last for a riddle to ask, and cried out, as his hand came upon the ring he lad picked up and forgotten:" << endl;
-cout << "What have I got in my pocket?" << endl;
-cout << "This Gollum failed to answer, though he demanded three guesses." << endl;
-cout << "The Authorities, it is true, differ whether this last question was a mere 'question' and not a 'riddle' according to the strict rules of the Game;" << endl;
-cout << "but all agree that, after accepting it and trying to guess the answer, Gollum was bound by his promise." << endl;
-cout << "And Bilbo pressed him to keep his word;" << endl;
+cout << "for he was stumped at last for a riddle to ask, and cried out, as his hand came upon the ring he lad picked up and forgotten" << Colon << endl;
+cout << "What have I got in my pocket" << QuestionMark << endl;
+cout << "This Gollum failed to answer, though he demanded three guesses" << Period << endl;
+cout << "The Authorities, it is true, differ whether this last question was a mere 'question' and not a 'riddle' according to the strict rules of the Game" << Semicolon << endl;
+cout << "but all agree that, after accepting it and trying to guess the answer, Gollum was bound by his promise" << Period << endl;
+cout << "And Bilbo pressed him to keep his word" << Semicolon << endl;
 cout << "for the thought came to him that this slimy creature might prove false, even though such promises were held sacred," << endl;
 cout << "and of old all but the wickedest things feared to break them." << endl;
 cout << "But after ages alone in the dark Gollum's heart was black, and treachery was in it." << endl;
@@ -921,7 +932,7 @@ cout << "Only to Frodo did he show the account of his Journey that he was writin
 cout << "His sword, Sting, Bilbo hung over his fireplace, and his coat of marvellous mail, the gift of the Dwarves from the Dragon-hoard," << endl;
 cout << "he lent to a museum, to the Michel Delving Mathom-house in fact." << endl;
 cout << "But he kept in a drawer at Bag End the old cloak and hood that he had worn on his travels; and the ring, secured by a fine chain, remained in his pocket." << endl;
-cout << "He returned to his home at Bag End on June the 22nd in his fifty-second year (S.R. 1342)," << endl;
+cout << "He returned to his home at Bag End on June the" << Space << Twenty_Two << nd << Space << "in his fifty-second year" << Space << Left_Parent << S << Period << R << Period << Space << Year_Thirteen_Forty_Two << Right_Parent << Comma << endl;
 cout << "and nothing very notable occurred in the Shire until Mr. Baggins began the preparations for the celebration of his hundred-and-eleventh birthday (S.R. 1401)." << endl;
 cout << "At this point this History begins.";
 
@@ -1830,42 +1841,49 @@ cout << Apostrophe << "He is indisposed" << Comma << Apostrophe << Space << "he 
 cout << Apostrophe << "He is resting" << Period << Apostrophe << endl;
 
 cout << Apostrophe << Hiding << Comma << Space << "you mean" << Comma << Apostrophe << Space << "said Lobelia" << Period << endl;
-cout << "Anyway we want to see him and we mean to see him" << ".";
+cout << "Anyway we want to see him and we mean to see him" << Period << endl;
 cout << "Just go and tell him so" << ExclamationMark << endl;
-cout << "Merry left them a long while in the hall, and they had time to discover their parting gift of spoons" << ".";
-cout << "It did not improve their tempers" << ".";
-cout << "Eventually they were shown into the study" << ".";
-cout << "Frodo was sitting at a table with a lot of papers in front of him" << ".";
-cout << "He looked indisposed - to see Sackville-Bagginses at any rate" << ";";
-cout << "and he stood up, fidgeting with something in his pocket" << ".";
-cout << "But he spoke quite politely" << ".";
+cout << "Merry left them a long while in the hall, and they had time to discover their parting gift of spoons" << Period << endl;
+cout << "It did not improve their tempers" << Period << endl;
+cout << "Eventually they were shown into the study" << Period << endl;
+cout << "Frodo was sitting at a table with a lot of papers in front of him" << Period << endl;
+cout << "He looked indisposed - to see Sackville-Bagginses at any rate" << Semicolon << endl;
+cout << "and he stood up, fidgeting with something in his pocket" << Period << endl;
+cout << "But he spoke quite politely" << Period << endl;
 
-cout << "The Sackville-Bagginses were rather offensive" << ".";
-cout << "They began by offering him bad bargain-prices (as between friends) for various valuable and unlabelled things" << ".";
-cout << "When Frodo replied that only the things specially directed by Bilbo were being given away" << "," << " " << "they said the whole affair was very fishy" << ".";
-cout << "'" << "Only one thing is clear to me" << "," << "'" << " " << "said Otho" << ",";
-cout << "and that is that you are doing exceedingly well out of it" << ".";
-cout << "I insist on seeing the will" << ".";
-cout << "Otho would have been Bilbo's heir" << "," << " " << "but for the adoption of Frodo" << ".";
-cout << "He read the will carefully and snorted" << ".";
-cout << "It was" << "," << " " << "unfortunately" << "," << " " << "very clear and correct" << ",";
-cout << "(" << "according to the legal customs of hobbits" << "," << " " << "which demand among other things seven signatures of witnesses in red ink" << ")" << ".";
-cout << "'" << "Foiled again" << "!" << "'";
-cout << "he said to his wife" << ".";
-cout << "And after waiting sixty years" << ".";
-cout << Spoons << "?";
+cout << "The Sackville-Bagginses were rather offensive" << Period << endl;
+cout << "They began by offering him bad bargain-prices (as between friends) for various valuable and unlabelled things" << Period << endl;
+cout << "When Frodo replied that only the things specially directed by Bilbo were being given away" << Comma << Space << "they said the whole affair was very fishy" << Period << endl;
+cout << Apostrophe << "Only one thing is clear to me" << Comma << Apostrophe << Space << "said Otho" << Comma << endl;
+cout << "and that is that you are doing exceedingly well out of it" << Period << endl;
+cout << "I insist on seeing the will" << Period << endl;
+cout << "Otho would have been Bilbo's heir" << Comma << Space << "but for the adoption of Frodo" << Period << endl;
+cout << "He read the will carefully and snorted" << Period << endl;
+cout << "It was" << Comma << Space << unfortunately << Comma << Space << "very clear and correct" << Comma << endl;
+cout << Left_Parent << "according to the legal customs of hobbits" << Comma << Space << "which demand among other things seven signatures of witnesses in red ink" << Right_Parent << Period << endl;
+cout << Apostrophe << "Foiled again" << ExclamationMark << Apostrophe << endl;
+cout << "he said to his wife" << Period << endl;
+cout << "And after waiting sixty years" << Period << endl;
+cout << Spoons << QuestionMark << endl;
 cout << Fiddlesticks << ExclamationMark << endl;
 
-cout << "He snapped his fingers under Frodo's nose and slumped off.";
-cout << "But Lobelia was not so easily got rid of.";
-cout << "A little later Frodo came out of the study to see how things were going on and found her still about the place,";
-cout << "investigating nooks and comers and tapping the floors.";
-cout << "He escorted her firmly off the premises,";
-cout << "after he had relieved her of several small (but rather valuable) articles that had somehow fallen inside her umbrella.";
-cout << "Her face looked as if she was in the throes of thinking out a really crushing parting remark;";
-cout << "but all she found to say, turning round on the step, was:";
+cout << "He snapped his fingers under Frodo's nose and slumped off" << Period << endl;
+cout << "But Lobelia was not so easily got rid of" << Period << endl;
+cout << "A little later Frodo came out of the study to see how things were going on and found her still about the place" << Comma << endl;
+cout << "investigating nooks and comers and tapping the floors" << Period << endl;
+cout << "He escorted her firmly off the premises" << Comma << endl;
+cout << "after he had relieved her of several small (but rather valuable) articles that had somehow fallen inside her umbrella" << Period << endl;
+cout << "Her face looked as if she was in the throes of thinking out a really crushing parting remark" << Semicolon << endl;
+cout << "but all she found to say, turning round on the step, was" << Colon << endl;
 
-
+cout << "You'll live to regret it, young fellow" << ExclamationMark << endl;
+cout << "Why didn't you go too" << QuestionMark << endl;
+cout << "You don't belong here" << Semicolon << endl;
+cout << "you're no Baggins - you - you're a Brandybuck" << ExclamationMark << endl;
+cout << "Did you hear that, Merry" << QuestionMark << endl;
+cout << "That was an insult, if you like, said Frodo as he shut the door on her" << Period << endl;
+cout << Apostrophe << "It was a compliment" << Comma << Apostrophe << Space << "said Merry Brandybuck" << Comma << endl;
+cout << Apostrophe << "and so, of course, not true" << Period << Apostrophe << endl;
 
 
 
@@ -1889,14 +1907,32 @@ cout << "but all she found to say, turning round on the step, was:";
 
 
 /*
-You'll live to regret it, young fellow!
-Why didn't you go too?
-You don't belong here;
-you're no Baggins - you - you're a Brandybuck!
-Did you hear that, Merry?
-That was an insult, if you like, said Frodo as he shut the door on her.
-'It was a compliment,' said Merry Brandybuck,
-'and so, of course, not true.'
+Then they went round the hole, and evicted three young hobbits (two Boffins and a Bolger) who were knocking holes in the walls of one of the cellars. Frodo also had a tussle with young Sancho Proudfoot (old Odo Proudfoot's grandson), who had begun an excavation in the larger pantry, where he thought there was an echo. The legend of Bilbo's gold excited both curiosity and hope; for legendary gold (mysteriously obtained, if not positively ill-gotten), is, as every one knows, any one's for the finding – unless the search is interrupted.
+When he had overcome Sancho and pushed him out, Frodo collapsed on a chair in the hall. It's time to close the shop, Merry,' he said. 'Lock the door, and don't open it to anyone today, not even if they bring a battering ram.' Then he went to revive himself with a belated cup of tea.
+He had hardly sat down, when there came a soft knock at the front-door. 'Lobelia again most likely,' he thought. 'She must have thought of something really nasty, and have come back again to say it. It can wait.'
+He went on with his tea. The knock was repeated, much louder, but he took no notice. Suddenly the wizard's head appeared at the window.
+'If you don't let me in, Frodo, I shall blow your door right down your hole and out through the hill,' he said.
+'My dear Gandalf! Half a minute!' cried Frodo, running out of the room to the door. 'Come in! Come in! I thought it was Lobelia.'
+'Then I forgive you. But I saw her some time ago, driving a pony-trap towards Bywater with a face that would have curdled new milk.'
+'She had already nearly curdled me. Honestly, I nearly tried on Bilbo's ring. I longed to disappear.'
+'Don't do that!' said Gandalf, sitting down. 'Do be careful of that ring, Frodo! In fact, it is partly about that that I have come to say a last word.'
+'Well, what about it?'
+'What do you know already?'
+'Only what Bilbo told me. I have heard his story: how he found it, and how he used it: on his journey, I mean.'
+'Which story, I wonder,' said Gandalf.
+'Oh, not what he told the dwarves and put in his book,' said Frodo. 'He told me the true story soon after I came to live here. He said you had pestered him till he told you, so I had better know too. "No secrets between us, Frodo," he said; "but they are not to go any further. It's mine anyway."'
+'That's interesting,' said Gandalf. 'Well, what did you think of it all?'
+'If you mean, inventing all that about a "present", well, I thought the true story much more likely, and I couldn't see the point of altering it at all. It was very unlike Bilbo to do so, anyway; and I thought it rather odd.'
+'So did I. But odd things may happen to people that have such treasures – if they use them. Let it be a warning to you to be very careful with it. It may have other powers than just making you vanish when you wish to.'
+'I don't understand,' said Frodo.
+'Neither do I,' answered the wizard. 'I have merely begun to wonder about the ring, especially since last night. No need to worry. But if you take my advice you will use it very seldom, or not at all. At least I beg you not to use it in any way that will cause talk or rouse suspicion. I say again: keep it safe, and keep it secret!'
+'You are very mysterious! What are you afraid of?'
+'I am not certain, so I will say no more. I may be able to tell you something when I come back. I am going off at once: so this is good-bye for the present.' He got up.
+'At once!' cried Frodo. 'Why, I thought you were staying on for at least a week. I was looking forward to your help.'
+'I did mean to – but I have had to change my mind. I may be away for a good while; but I'll come and see you again, as soon as I can. Expect me when you see me! I shall slip in quietly. I shan't often be visiting the Shire openly again. I find that I have become rather unpopular. They say I am a nuisance and a disturber of the peace. Some people are actually accusing me of spiriting Bilbo away, or worse. If you want to know, there is supposed to be a plot between you and me to get hold of his wealth.'
+'Some people!' exclaimed Frodo. 'You mean Otho and Lobelia. How abominable! I would give them Bag End and everything else, if I could get Bilbo back and go off tramping in the country with him. I love the Shire. But I begin to wish, somehow, that I had gone too. I wonder if I shall ever see him again.'
+'So do I,' said Gandalf. 'And I wonder many other things. Good-bye now! Take care of yourself! Look out for me, especially at unlikely times! Good-bye!'
+Frodo saw him to the door. He gave a final wave of his hand, and walked off at a surprising pace; but Frodo thought the old wizard looked unusually bent, almost as if he was carrying a great weight. The evening was closing in, and his cloaked figure quickly vanished into the twilight. Frodo did not see him again for a long time.
 */
 
 cout << Exit_Variable_Text << QuestionMark << endl;
