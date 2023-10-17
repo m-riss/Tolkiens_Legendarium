@@ -91,7 +91,13 @@ string Bilbo = "";
 string now = "";
 string GOOD = "";
 string BYE = "";
+string unfortunately = "";
+string Spoons = "";
+string Fiddlesticks = "";
+string Hiding = "";
 
+unfortunately = "unfortunately";
+Fiddlesticks = "Fiddlesticks";
 grandmother = "grandmother";
 Everything = "Everything";
 government = "government";
@@ -111,6 +117,8 @@ INDEXES = "INDEXES";
 Tolkien = "Tolkien";
 Gandalf = "Gandalf";
 Strider = "Strider";
+Spoons = "Spoons";
+Hiding = "Hiding";
 anyway = "anyway";
 nephew = "nephew";
 Hurray = "Hurray";
@@ -1749,12 +1757,16 @@ Semicolon = "";
 Colon = "";
 Comma = "";
 Apostrophe = "";
+Space = "";
+ExclamationMark = "";
 
 Period = ".";
 Semicolon = ";";
 Colon = ":";
 Comma = ",";
 Apostrophe = "'";
+Space = " ";
+ExclamationMark = "!";
 
 cout << "Bagginses, and Boffins, and Bolgers, and Tooks, and other guests that lived or were staying near" << Period << endl;
 cout << "By mid-day, when even the best-fed were out and about again, there was a large crowd at Bag End, uninvited but not unexpected" << Period << endl;
@@ -1817,9 +1829,41 @@ cout << "When Otho loudly demanded to see Frodo, Merry bowed politely" << Period
 cout << Apostrophe << "He is indisposed" << Comma << Apostrophe << Space << "he said" << Period << endl;
 cout << Apostrophe << "He is resting" << Period << Apostrophe << endl;
 
+cout << Apostrophe << Hiding << Comma << Space << "you mean" << Comma << Apostrophe << Space << "said Lobelia" << Period << endl;
+cout << "Anyway we want to see him and we mean to see him" << ".";
+cout << "Just go and tell him so" << ExclamationMark << endl;
+cout << "Merry left them a long while in the hall, and they had time to discover their parting gift of spoons" << ".";
+cout << "It did not improve their tempers" << ".";
+cout << "Eventually they were shown into the study" << ".";
+cout << "Frodo was sitting at a table with a lot of papers in front of him" << ".";
+cout << "He looked indisposed - to see Sackville-Bagginses at any rate" << ";";
+cout << "and he stood up, fidgeting with something in his pocket" << ".";
+cout << "But he spoke quite politely" << ".";
 
+cout << "The Sackville-Bagginses were rather offensive" << ".";
+cout << "They began by offering him bad bargain-prices (as between friends) for various valuable and unlabelled things" << ".";
+cout << "When Frodo replied that only the things specially directed by Bilbo were being given away" << "," << " " << "they said the whole affair was very fishy" << ".";
+cout << "'" << "Only one thing is clear to me" << "," << "'" << " " << "said Otho" << ",";
+cout << "and that is that you are doing exceedingly well out of it" << ".";
+cout << "I insist on seeing the will" << ".";
+cout << "Otho would have been Bilbo's heir" << "," << " " << "but for the adoption of Frodo" << ".";
+cout << "He read the will carefully and snorted" << ".";
+cout << "It was" << "," << " " << "unfortunately" << "," << " " << "very clear and correct" << ",";
+cout << "(" << "according to the legal customs of hobbits" << "," << " " << "which demand among other things seven signatures of witnesses in red ink" << ")" << ".";
+cout << "'" << "Foiled again" << "!" << "'";
+cout << "he said to his wife" << ".";
+cout << "And after waiting sixty years" << ".";
+cout << Spoons << "?";
+cout << Fiddlesticks << ExclamationMark << endl;
 
-
+cout << "He snapped his fingers under Frodo's nose and slumped off.";
+cout << "But Lobelia was not so easily got rid of.";
+cout << "A little later Frodo came out of the study to see how things were going on and found her still about the place,";
+cout << "investigating nooks and comers and tapping the floors.";
+cout << "He escorted her firmly off the premises,";
+cout << "after he had relieved her of several small (but rather valuable) articles that had somehow fallen inside her umbrella.";
+cout << "Her face looked as if she was in the throes of thinking out a really crushing parting remark;";
+cout << "but all she found to say, turning round on the step, was:";
 
 
 
@@ -1845,43 +1889,14 @@ cout << Apostrophe << "He is resting" << Period << Apostrophe << endl;
 
 
 /*
-cout << "'Hiding, you mean,' said Lobelia.
-cout << "Anyway we want to see him and we mean to see him.
-cout << "Just go and tell him so!
-cout << "Merry left them a long while in the hall, and they had time to discover their parting gift of spoons.
-cout << "It did not improve their tempers.
-cout << "Eventually they were shown into the study.
-cout << "Frodo was sitting at a table with a lot of papers in front of him.
-cout << "He looked indisposed - to see Sackville-Bagginses at any rate;
-cout << "and he stood up, fidgeting with something in his pocket.
-cout << "But he spoke quite politely.
-
-The Sackville-Bagginses were rather offensive.
-They began by offering him bad bargain-prices (as between friends) for various valuable and unlabelled things.
-When Frodo replied that only the things specially directed by Bilbo were being given away, they said the whole affair was very fishy.
-'Only one thing is clear to me,' said Otho,
-and that is that you are doing exceedingly well out of it.
-I insist on seeing the will.
-Otho would have been Bilbo's heir, but for the adoption of Frodo.
-He read the will carefully and snorted.
-It was, unfortunately, very clear and correct,
-(according to the legal customs of hobbits, which demand among other things seven signatures of witnesses in red ink).
-'Foiled again!'
-he said to his wife.
-And after waiting sixty years.
-Spoons?
-Fiddlesticks!
-He snapped his fingers under Frodo's nose and slumped off.
-But Lobelia was not so easily got rid of.
-A little later Frodo came out of the study to see how things were going on and found her still about the place,
-investigating nooks and comers and tapping the floors.
-He escorted her firmly off the premises,
-after he had relieved her of several small (but rather valuable) articles that had somehow fallen inside her umbrella.
-Her face looked as if she was in the throes of thinking out a really crushing parting remark;
-but all she found to say, turning round on the step, was:
-'You'll live to regret it, young fellow! Why didn't you go too? You don't belong here; you're no Baggins – you – you're a Brandybuck!'
-'Did you hear that, Merry? That was an insult, if you like,' said Frodo as he shut the door on her.
-'It was a compliment,' said Merry Brandybuck, 'and so, of course, not true.'
+You'll live to regret it, young fellow!
+Why didn't you go too?
+You don't belong here;
+you're no Baggins - you - you're a Brandybuck!
+Did you hear that, Merry?
+That was an insult, if you like, said Frodo as he shut the door on her.
+'It was a compliment,' said Merry Brandybuck,
+'and so, of course, not true.'
 */
 
 cout << Exit_Variable_Text << QuestionMark << endl;
