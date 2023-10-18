@@ -1885,6 +1885,61 @@ cout << "That was an insult, if you like, said Frodo as he shut the door on her"
 cout << Apostrophe << "It was a compliment" << Comma << Apostrophe << Space << "said Merry Brandybuck" << Comma << endl;
 cout << Apostrophe << "and so, of course, not true" << Period << Apostrophe << endl;
 
+Period = "";
+Comma = "";
+Apostrophe = "";
+Space = "";
+Semicolon = "";
+Colon = "";
+Left_Parent = "";
+Right_Parent = "";
+
+Period = ".";
+Comma = ",";
+Apostrophe = "'";
+Space = " ";
+Semicolon = ";";
+Colon = ":";
+Left_Parent = "(";
+Right_Parent = ")";
+
+cout << "Then they went round the hole, and evicted three young hobbits (two Boffins and a Bolger) who were knocking holes in the walls of one of the cellars" << Period << endl;
+cout << "Frodo also had a tussle with young Sancho Proudfoot" << Space << Left_Parent << "old Odo Proudfoot's grandson" << Right_Parent << Comma << endl;
+cout << "who had begun an excavation in the larger pantry, where he thought there was an echo" << Period << endl;
+cout << "The legend of Bilbo's gold excited both curiosity and hope" << Semicolon << endl;
+cout << "for legendary gold" << Space << Left_Parent << "mysteriously obtained, if not positively ill-gotten" << Right_Parent << Comma << endl;
+cout << "is, as every one knows, any one's for the finding - unless the search is interrupted" << Period << endl;
+cout << "When he had overcome Sancho and pushed him out, Frodo collapsed on a chair in the hall" << Period << endl;
+cout << "It's time to close the shop, Merry, he said" << Period << endl;
+cout << Apostrophe << "Lock the door, and don't open it to anyone today, not even if they bring a battering ram" << Period << Apostrophe << endl;
+cout << "Then he went to revive himself with a belated cup of tea" << Period << endl;
+
+cout << "He had hardly sat down, when there came a soft knock at the front-door" << Period << endl;
+cout << Apostrophe << "Lobelia again most likely" << Comma << Apostrophe << Space << "he thought" << Period << endl;
+cout << "She must have thought of something really nasty, and have come back again to say it" << Period << endl;
+cout << "It can wait" << Period << endl;
+cout << "He went on with his tea" << Period << endl;
+cout << "The knock was repeated, much louder, but he took no notice" << Period << endl;
+cout << "Suddenly the wizard's head appeared at the window" << Period << endl;
+cout << Apostrophe << "If you don't let me in, Frodo, I shall blow your door right down your hole and out through the hill" << Comma << Apostrophe << Space << "he said" << Period << endl;
+cout << "My dear Gandalf" << ExclamationMark << endl;
+cout << "Half a minute" << ExclamationMark << endl;
+cout << "cried Frodo, running out of the room to the door" << Period << endl;
+cout << "Come in" << ExclamationMark << endl;
+cout << "Come in" << ExclamationMark << endl;
+cout << "I thought it was Lobelia" << Period << endl;
+
+cout << "Then I forgive you" << Period << endl;
+cout << "But I saw her some time ago, driving a pony-trap towards Bywater with a face that would have curdled new milk" << Period << endl;
+cout << "She had already nearly curdled me" << Period << endl;
+cout << "Honestly, I nearly tried on Bilbo's ring" << Period << endl;
+cout << "I longed to disappear" << Period << endl;
+cout << "Don't do that" << ExclamationMark << endl;
+cout << "said Gandalf, sitting down" << Period << endl;
+cout << "Do be careful of that ring, Frodo" << ExclamationMark << endl;
+cout << "In fact, it is partly about that that I have come to say a last word" << Period << endl;
+cout << Apostrophe << "Well, what about it" << QuestionMark << Apostrophe << endl;
+cout << Apostrophe << "What do you know already" << QuestionMark << Apostrophe << endl;
 
 
 
@@ -1905,19 +1960,92 @@ cout << Apostrophe << "and so, of course, not true" << Period << Apostrophe << e
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+cout << Hyphen;
+cout << Hyphen;
+cout << Hyphen;
+cout << Hyphen;
+cout << Hyphen;
+cout << Hyphen;
+cout << Hyphen;
+cout << Hyphen;
+cout << Hyphen;
+cout << Hyphen;
+cout << Hyphen;
+cout << Hyphen;
+cout << Hyphen;
+cout << Hyphen;
+cout << Hyphen;
+cout << Hyphen;
+cout << Hyphen;
+cout << Hyphen;
+cout << Hyphen;
+cout << Hyphen;
+cout << Hyphen;
+cout << Hyphen;
+cout << Hyphen;
+cout << Hyphen;
+cout << Hyphen;
+cout << Hyphen;
+cout << Hyphen;
+cout << Hyphen;
+cout << Hyphen;
+cout << Hyphen;
+cout << Hyphen;
+cout << Hyphen;
+cout << Hyphen;
+cout << Hyphen;
+cout << Hyphen;
+cout << Hyphen;
+cout << Hyphen;
+cout << Hyphen;
+cout << Hyphen;
+cout << Hyphen;
+cout << Hyphen;
+cout << Hyphen;
+cout << Hyphen;
+cout << Hyphen;
+cout << Hyphen;
+cout << Hyphen;
+cout << Hyphen << endl;
+
+Chapter = "";
+Chapter = "Chapter";
+
+cout << Chapter << Space << Two << endl;
+cout << "The Shadow of the Past" << endl;
 
 /*
-Then they went round the hole, and evicted three young hobbits (two Boffins and a Bolger) who were knocking holes in the walls of one of the cellars. Frodo also had a tussle with young Sancho Proudfoot (old Odo Proudfoot's grandson), who had begun an excavation in the larger pantry, where he thought there was an echo. The legend of Bilbo's gold excited both curiosity and hope; for legendary gold (mysteriously obtained, if not positively ill-gotten), is, as every one knows, any one's for the finding – unless the search is interrupted.
-When he had overcome Sancho and pushed him out, Frodo collapsed on a chair in the hall. It's time to close the shop, Merry,' he said. 'Lock the door, and don't open it to anyone today, not even if they bring a battering ram.' Then he went to revive himself with a belated cup of tea.
-He had hardly sat down, when there came a soft knock at the front-door. 'Lobelia again most likely,' he thought. 'She must have thought of something really nasty, and have come back again to say it. It can wait.'
-He went on with his tea. The knock was repeated, much louder, but he took no notice. Suddenly the wizard's head appeared at the window.
-'If you don't let me in, Frodo, I shall blow your door right down your hole and out through the hill,' he said.
-'My dear Gandalf! Half a minute!' cried Frodo, running out of the room to the door. 'Come in! Come in! I thought it was Lobelia.'
-'Then I forgive you. But I saw her some time ago, driving a pony-trap towards Bywater with a face that would have curdled new milk.'
-'She had already nearly curdled me. Honestly, I nearly tried on Bilbo's ring. I longed to disappear.'
-'Don't do that!' said Gandalf, sitting down. 'Do be careful of that ring, Frodo! In fact, it is partly about that that I have come to say a last word.'
-'Well, what about it?'
-'What do you know already?'
+
+
+
+
 'Only what Bilbo told me. I have heard his story: how he found it, and how he used it: on his journey, I mean.'
 'Which story, I wonder,' said Gandalf.
 'Oh, not what he told the dwarves and put in his book,' said Frodo. 'He told me the true story soon after I came to live here. He said you had pestered him till he told you, so I had better know too. "No secrets between us, Frodo," he said; "but they are not to go any further. It's mine anyway."'
